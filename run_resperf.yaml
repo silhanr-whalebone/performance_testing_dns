@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    qps: 1300
+    qps: 1400
     duration: 180
     clients: 500
   
