@@ -1,0 +1,14 @@
+---
+- name: Run resperf
+  hosts: all
+  become: yes
+  vars:
+    qps: 1200
+    duration: 600
+    clients: 50
+  
+  tasks:
+
+    - name: "Start resperf"
+      ansible.builtin.shell: cd /root/resperf_ansible/; nohup resperf-report -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C {{ clients }} -m {{ qps }} -b 1400 -q 1000000 -R -r 10 -c {{ duration }} -t 30 -F 0 > output.txt 2>&1 &
+

@@ -1,0 +1,24 @@
+---
+- name: Create resperf folder and send domains.list
+  hosts: all
+  become: yes
+
+
+  tasks:
+    - name: "Create folder /root/resperf_ansible"
+      ansible.builtin.file:
+        path: /root/resperf_ansible
+        state: directory
+        mode: '0755'
+
+    - name: "Copy domains.list"
+      ansible.builtin.copy:
+        src: domains.list.gz
+        dest: /root/resperf_ansible/domains.list.gz
+ 
+
+    - name: "Extract domains.list"
+      ansible.builtin.shell: gunzip /root/resperf_ansible/domains.list.gz
+
+    - name: "Shuffle domains.list"
+      ansible.builtin.shell: shuf /root/resperf_ansible/domains.list > /root/resperf_ansible/domains_shuffled.list

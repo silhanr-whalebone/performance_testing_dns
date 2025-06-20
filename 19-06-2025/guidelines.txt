@@ -1,0 +1,66 @@
+
+
+date && nice -n -18 resperf-report -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d ../domains_shuffled.list -C 500 -m 8000 -b 1400 -q 500000 -R -r 10 -c 180 -t 30 -F 0
+
+Check:
+file=/var/log/whalebone/passivedns.log; while :; do date '+%Y-%m-%d %H:%M:%S';a=$(grep -c "79.127.218.224.*DOH" $file); sleep 1; b=$(grep -c "79.127.218.224.*DOH" $file); echo $((b-a)); docker stats --no-stream;done
+
+
+
+
+Rsync:
+rsync -a root@195.201.99.145:/root/resperf/20250619* .
+
+
+Ansible way:
+
+ansible-playbook -u root -i test_nodes.yaml install_resperf.yaml
+ansible-playbook -u root -i test_nodes.yaml prepare_environment.yaml
+
+
+----------
+date; ansible-playbook -u root -i test_nodes.yaml run_resperf.yaml
+----------
+
+#for i in $(echo "195.201.99.145 91.99.11.18 157.180.84.214 5.161.245.1 135.181.32.208 37.27.41.98 91.99.164.79 91.99.107.122 91.99.145.134 91.99.146.226"); do mkdir -p $i; scp -q root@$i:/root/resperf_ansible/202506* $i/.; done
+
+for i in $(echo "195.201.99.145 91.99.11.18 157.180.84.214 5.161.245.1 135.181.32.208 37.27.41.98 91.99.164.79 91.99.107.122 91.99.145.134 91.99.146.226"); do rsync -a root@$i:/root/resperf_ansible/202506* 19-06-2025/$i/.; done; rsync -a dns4eu-athens:/tmp/dns4eu-ath-01_stats* ./19-06-2025/.
+
+
+Stats on resolver:
+output=/tmp/$(hostname)_stats_$(date '+%Y-%m-%d_%H-%M-%S').txt &&  while :; do date >> $output; docker stats --no-stream >> $output; top -b -n 1 | head -n 20 >> $output; tail -n 30 $output | grep load;  sleep 1; done
+
+
+
+
+
+
+
+
+
+
+
+
+Evgeny:
+nohup dnsperf -s -d /var/tmp/top-1m.txt -Q 2100 -l 1800 -c 500 -q 1000000 -t 2 > /var/tmp/report01.txt 2>&1 &
+
+
+ -l limit
+              Specifies a time limit for the run, in seconds.  This may cause the input to be read multiple times, or only
+              some of the input to be read.  The default behavior is to read the input once, and  have  no  specific  time
+              limit.
+
+-c clients
+        Act as multiple clients.  Requests are sent from multiple sockets.  The default is to act as 1 client.
+
+
+   -q num_queries
+              Sets the maximum number of outstanding requests.  When this value is reached, dnsperf will not send any more
+              requests until either responses are received or requests time out.  The default value is 100.
+
+  -t timeout
+              Specifies the request timeout value, in seconds.  dnsperf will no longer wait for a response to a particular
+              request after this many seconds have elapsed.  The default is 5 seconds.
+
+
+

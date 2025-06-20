@@ -1,0 +1,17 @@
+---
+- name: Run resperf
+  hosts: all
+  become: yes
+
+  tasks:
+    - name: Setting file descriptor limits using pam_limits
+      pam_limits:
+        domain: "{{ item.domain }}"
+        limit_type: "{{ item.limit_type }}"
+        limit_item: "{{ item.limit_item }}"
+        value: "{{ item.value }}"
+      loop:
+        - { domain: 'root', limit_type: 'soft', limit_item: 'nofile', value: '999999' }
+        - { domain: 'root', limit_type: 'hard', limit_item: 'nofile', value: '999999' }
+        - { domain: 'root', limit_type: 'soft', limit_item: 'nproc', value: '2048' }
+        - { domain: 'root', limit_type: 'hard', limit_item: 'nproc', value: '4096' }

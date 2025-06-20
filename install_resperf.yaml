@@ -1,0 +1,36 @@
+---
+- name: Install dnsperf, resperf-report, and gnuplot on Ubuntu
+  hosts: all
+  become: yes
+
+  tasks:
+
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+
+    - name: Install dnsperf and gnuplot
+      apt:
+        name:
+          - dnsperf
+          - gnuplot
+        state: present
+
+    - name: Verify dnsperf and resperf-report are available
+      command: which dnsperf
+      register: dnsperf_path
+      changed_when: false
+
+    - name: Display installed path for dnsperf
+      debug:
+        msg: "dnsperf is installed at: {{ dnsperf_path.stdout }}"
+
+    - name: Verify gnuplot is available
+      command: which gnuplot
+      register: gnuplot_path
+      changed_when: false
+
+    - name: Display installed path for gnuplot
+      debug:
+        msg: "gnuplot is installed at: {{ gnuplot_path.stdout }}"
