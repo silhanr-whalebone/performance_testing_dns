@@ -1,0 +1,62 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1144</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1144.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0 -i 2
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 9616
+Warning: received a response with an unexpected id: 9843
+Warning: received a response with an unexpected id: 9841
+Warning: received a response with an unexpected id: 9854
+Warning: received a response with an unexpected id: 9870
+Warning: received a response with an unexpected id: 9880
+Warning: received a response with an unexpected id: 9857
+Warning: received a response with an unexpected id: 9848
+Warning: received a response with an unexpected id: 9876
+Warning: received a response with an unexpected id: 9881
+Warning: received a response with an unexpected id: 9863
+Warning: received a response with an unexpected id: 9865
+Warning: received a response with an unexpected id: 9859
+Warning: received a response with an unexpected id: 9868
+Warning: received a response with an unexpected id: 9846
+Warning: received a response with an unexpected id: 9883
+Warning: received a response with an unexpected id: 9887
+Warning: received a response with an unexpected id: 9845
+Warning: received a response with an unexpected id: 9885
+Warning: received a response with an unexpected id: 9858
+Warning: received a response with an unexpected id: 9850
+Warning: received a response with an unexpected id: 9856
+Warning: received a response with an unexpected id: 9860
+Warning: received a response with an unexpected id: 9844
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         756249
+  Queries completed:    755137
+  Queries lost:         1112
+  Response codes:       NOERROR 501735 (66.44%), SERVFAIL 25296 (3.35%), NXDOMAIN 228106 (30.21%)
+
+  Run time (s):         623.071491
+  Maximum throughput:   2794.500000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  70 (70 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 755161
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1144.rate.png" />
+<img src="20250620-1144.latency.png" />
+</p>
+</body></html>

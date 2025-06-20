@@ -1,0 +1,2275 @@
+Fri Jun 20 07:26:01 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          2.79%     759.2MiB / 10GiB     7.41%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.76%     200.5MiB / 1GiB      19.58%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          1.36%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.31%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.05%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.01%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.00%     88.81MiB / 1GiB      8.67%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            0.00%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          1.25%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.72%     32.72MiB / 200MiB    16.36%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.07%     143.1MiB / 1GiB      13.97%    0B / 0B   225MB / 100GB     20
+top - 07:26:04 up 45 days, 17:37,  1 user,  load average: 0.38, 2.81, 4.31
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.8 sy,  0.0 ni, 99.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   9961.9 free,   2870.0 used,   3496.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13013.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1832882 root      20   0       0      0      0 I   9.1   0.0   0:00.39 kworker+
+1858977 root      20   0   13800   6272   4096 R   9.1   0.0   0:00.01 top
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:01.22 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+Fri Jun 20 07:26:05 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          0.21%     759.3MiB / 10GiB     7.41%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.71%     200.6MiB / 1GiB      19.59%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.15%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.00%     88.81MiB / 1GiB      8.67%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            0.05%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          1.26%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.50%     32.71MiB / 200MiB    16.36%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.01%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.09%     143.1MiB / 1GiB      13.97%    0B / 0B   225MB / 100GB     20
+top - 07:26:08 up 45 days, 17:37,  1 user,  load average: 0.38, 2.81, 4.31
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.9 us,  1.6 sy,  0.0 ni, 93.7 id,  0.8 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   9960.6 free,   2871.2 used,   3497.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13012.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1859001 root      20   0   13800   6272   4096 R   9.1   0.0   0:00.01 top
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:01.22 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+Fri Jun 20 07:26:09 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1.17%     759.5MiB / 10GiB     7.42%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.48%     200.7MiB / 1GiB      19.60%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.15%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.05%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.01%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.00%     88.81MiB / 1GiB      8.67%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            0.00%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          1.00%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.73%     32.72MiB / 200MiB    16.36%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.36%     143.1MiB / 1GiB      13.98%    0B / 0B   225MB / 100GB     20
+top - 07:26:12 up 45 days, 17:37,  1 user,  load average: 0.35, 2.76, 4.28
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.8 sy,  0.0 ni, 98.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   9965.0 free,   2866.7 used,   3497.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13016.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1859022 root      20   0   13800   6272   4096 R   9.1   0.0   0:00.01 top
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:01.22 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+Fri Jun 20 07:26:13 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          11.96%    759.4MiB / 10GiB     7.42%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.77%     200.7MiB / 1GiB      19.60%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.15%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.08%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.01%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.01%     88.81MiB / 1GiB      8.67%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            0.00%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          0.97%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.80%     32.82MiB / 200MiB    16.41%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.09%     143.1MiB / 1GiB      13.97%    0B / 0B   225MB / 100GB     20
+top - 07:26:15 up 45 days, 17:37,  1 user,  load average: 0.32, 2.71, 4.26
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.8 sy,  0.0 ni, 98.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   9968.4 free,   2863.1 used,   3497.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13020.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1859060 root      20   0   13800   6272   4096 R  10.0   0.0   0:00.01 top
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:01.22 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+Fri Jun 20 07:26:16 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          0.27%     759.6MiB / 10GiB     7.42%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.87%     200.8MiB / 1GiB      19.60%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.38%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.29%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.01%     88.81MiB / 1GiB      8.67%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            0.20%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          0.85%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          1.16%     32.84MiB / 200MiB    16.42%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.17%     143.4MiB / 1GiB      14.01%    0B / 0B   225MB / 100GB     20
+top - 07:26:19 up 45 days, 17:37,  1 user,  load average: 0.29, 2.67, 4.24
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.8 us,  0.8 sy,  0.0 ni, 98.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   9965.0 free,   2866.4 used,   3497.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13017.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1859082 root      20   0   13800   6272   4096 R   9.1   0.0   0:00.01 top
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.86 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:01.22 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      9 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+Fri Jun 20 07:26:20 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          208.94%   789.9MiB / 10GiB     7.71%     0B / 0B   28.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.27%     200.8MiB / 1GiB      19.61%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.15%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.28%     47.63MiB / 1GiB      4.65%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            1.19%     548.4MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          21.66%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.89%     32.83MiB / 200MiB    16.42%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         0.01%     143.4MiB / 1GiB      14.01%    0B / 0B   225MB / 100GB     20
+top - 07:26:23 up 45 days, 17:37,  1 user,  load average: 0.29, 2.67, 4.24
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.8 us,  2.4 sy,  0.0 ni, 77.6 id,  1.6 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   9969.3 free,   2851.8 used,   3507.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  13031.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9043048 174008 126168 R  30.0   1.1  18:17.84 kresd
+1855662 root      20   0 4994472 142116 125092 S  30.0   0.9   0:04.27 kresd
+1614390 root      20   0 9052052 190712 131684 S  20.0   1.2  44:23.03 kresd
+1855136 root      20   0 5003228 145284 126776 S  20.0   0.9   0:16.81 kresd
+1232436 root      20   0 2665872  97484  53376 S  10.0   0.6   3:17.75 filebeat
+1614266 1000      20   0 6101172 214492  28396 S  10.0   1.3  67:40.69 k2man
+1614438 root      20   0 7871128 179356 126892 S  10.0   1.1  44:24.23 kresd
+1683072 root      20   0 7393500 169724 127876 S  10.0   1.0  14:55.96 kresd
+1683240 root      20   0 7852704 172164 129276 S  10.0   1.1  13:48.90 kresd
+1683403 root      20   0 7394280 161976 121528 S  10.0   1.0  14:02.25 kresd
+1683557 root      20   0 9042152 177720 130044 R  10.0   1.1  14:16.50 kresd
+1684040 root      20   0 9042660 176096 127312 S  10.0   1.1  14:02.29 kresd
+1838287 root      20   0 5983012 158024 124548 S  10.0   1.0  10:47.61 kresd
+Fri Jun 20 07:26:24 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          289.96%   846.7MiB / 10GiB     8.27%     0B / 0B   28.9GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.30%     200.8MiB / 1GiB      19.61%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.54%     111.5MiB / 256MiB    43.56%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.00%     54.41MiB / 1GiB      5.31%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            9.44%     548.5MiB / 2GiB      26.78%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          25.53%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.37%     32.87MiB / 200MiB    16.43%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         6.55%     148.7MiB / 1GiB      14.53%    0B / 0B   225MB / 100GB     20
+top - 07:26:27 up 45 days, 17:37,  1 user,  load average: 0.51, 2.67, 4.23
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 30.6 us,  7.4 sy,  0.0 ni, 55.4 id,  4.1 wa,  0.0 hi,  2.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   9834.7 free,   2932.9 used,   3561.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12950.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683240 root      20   0 7852448 251988 205436 D  36.4   1.5  13:49.92 kresd
+1683557 root      20   0 9042152 254264 203388 S  36.4   1.6  14:17.61 kresd
+1684040 root      20   0 9042660 240992 189264 R  36.4   1.5  14:03.08 kresd
+1838340 root      20   0 5982880 242320 204196 S  36.4   1.5  11:40.59 kresd
+3589215 root      20   0 1305888 269100 100864 S  36.4   1.7     32,43 pktviso+
+1614390 root      20   0 9052052 262264 201060 S  27.3   1.6  44:23.91 kresd
+1680900 root      20   0 9043048 246456 196184 S  27.3   1.5  18:18.79 kresd
+1683072 root      20   0 7393500 240124 196228 D  27.3   1.5  14:56.87 kresd
+1855662 root      20   0 5002664 216868 196132 R  27.3   1.3   0:05.23 kresd
+1838287 root      20   0 5983012 222024 185604 S  18.2   1.4  10:48.34 kresd
+1855136 root      20   0 5003228 206596 185912 S  18.2   1.3   0:17.55 kresd
+     74 root       0 -20       0      0      0 I   9.1   0.0   9:14.28 kworker+
+1614438 root      20   0 7871128 245276 189868 S   9.1   1.5  44:25.03 kresd
+Fri Jun 20 07:26:28 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          577.26%   900.6MiB / 10GiB     8.79%     0B / 0B   29.1GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.16%     200.8MiB / 1GiB      19.61%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.10%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.97%     85.04MiB / 1GiB      8.30%     0B / 0B   967kB / 656MB     18
+cf190eec1dde   dnstag            24.10%    646.2MiB / 2GiB      31.55%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          45.75%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.04%     32.87MiB / 200MiB    16.43%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         8.65%     153MiB / 1GiB        14.94%    0B / 0B   225MB / 100GB     20
+top - 07:26:30 up 45 days, 17:37,  1 user,  load average: 0.71, 2.68, 4.22
+Tasks: 257 total,   5 running, 252 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 54.5 us,  9.9 sy,  0.0 ni, 27.3 id,  5.0 wa,  0.0 hi,  3.3 si,  0.0 st 
+MiB Mem :  15883.5 total,   9534.3 free,   3140.0 used,   3654.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12743.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1855662 root      20   0 5025192 335908 309412 R  72.7   2.1   0:07.05 kresd
+1614390 root      20   0 9052052 370680 305764 S  63.6   2.3  44:25.64 kresd
+1683240 root      20   0 7852448 362708 312316 S  63.6   2.2  13:51.69 kresd
+1838340 root      20   0 5982880 357136 314404 S  63.6   2.2  11:42.47 kresd
+1614438 root      20   0 7871128 348700 288940 D  54.5   2.1  44:26.54 kresd
+1680900 root      20   0 9043048 356280 301400 R  54.5   2.2  18:20.48 kresd
+1683072 root      20   0 7393500 350076 301316 R  54.5   2.2  14:58.51 kresd
+1683557 root      20   0 9042152 373304 317820 S  54.5   2.3  14:19.45 kresd
+1838287 root      20   0 5983012 327368 286724 R  54.5   2.0  10:49.80 kresd
+1855136 root      20   0 5003228 297860 273592 S  54.5   1.8   0:18.89 kresd
+3589215 root      20   0 1305888 269100 100864 S  54.5   1.7     32,43 pktviso+
+1232221 1000      20   0 2050776 673120  11136 S  45.5   4.1  48:50.64 dnstag
+1684040 root      20   0 9042660 346848 290896 S  45.5   2.1  14:04.69 kresd
+Fri Jun 20 07:26:31 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          699.76%   981.4MiB / 10GiB     9.58%     0B / 0B   29.3GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.65%     200.9MiB / 1GiB      19.62%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.28%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.14%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.98%     89.77MiB / 1GiB      8.77%     0B / 0B   967kB / 657MB     18
+cf190eec1dde   dnstag            207.49%   796.4MiB / 2GiB      38.89%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          51.13%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.36%     32.89MiB / 200MiB    16.44%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         27.14%    155.3MiB / 1GiB      15.17%    0B / 0B   225MB / 100GB     20
+top - 07:26:34 up 45 days, 17:37,  1 user,  load average: 2.65, 3.05, 4.33
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 62.5 us, 10.2 sy,  0.0 ni, 18.8 id,  3.9 wa,  0.0 hi,  4.7 si,  0.0 st 
+MiB Mem :  15883.5 total,   9205.1 free,   3363.7 used,   3760.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12519.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1838340 root      20   0 5982880 490128 439332 R  81.8   3.0  11:45.10 kresd
+1855662 root      20   0 5025192 466980 433956 R  72.7   2.9   0:09.64 kresd
+1614390 root      20   0 9052052 492920 421732 R  63.6   3.0  44:28.00 kresd
+1680900 root      20   0 9043048 479928 419416 R  63.6   3.0  18:22.81 kresd
+1683240 root      20   0 7852448 494804 436988 R  63.6   3.0  13:54.28 kresd
+1683557 root      20   0 9042152 495160 432764 R  63.6   3.0  14:21.91 kresd
+1614438 root      20   0 7871128 468252 402604 R  54.5   2.9  44:28.73 kresd
+1683072 root      20   0 7393500 470396 416004 R  54.5   2.9  15:00.77 kresd
+1684040 root      20   0 9042660 468064 406224 R  54.5   2.9  14:06.91 kresd
+1838287 root      20   0 5983012 445768 400772 R  54.5   2.7  10:51.90 kresd
+1855136 root      20   0 5013468 407300 379192 R  54.5   2.5   0:20.75 kresd
+3589215 root      20   0 1305888 269100 100864 S  54.5   1.7     32,43 pktviso+
+1232221 1000      20   0 2050776 796384  11136 S  45.5   4.9  48:53.58 dnstag
+Fri Jun 20 07:26:35 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          732.10%   999.6MiB / 10GiB     9.76%     0B / 0B   29.4GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.61%     200.9MiB / 1GiB      19.62%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.45%     89.89MiB / 1GiB      8.78%     0B / 0B   967kB / 657MB     18
+cf190eec1dde   dnstag            31.73%    797.1MiB / 2GiB      38.92%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          54.18%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.03%     32.93MiB / 200MiB    16.47%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         27.94%    154.4MiB / 1GiB      15.07%    0B / 0B   225MB / 100GB     20
+top - 07:26:38 up 45 days, 17:37,  1 user,  load average: 2.65, 3.05, 4.33
+Tasks: 257 total,   7 running, 250 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 52.0 us,  9.8 sy,  0.0 ni, 31.7 id,  3.3 wa,  0.0 hi,  3.3 si,  0.0 st 
+MiB Mem :  15883.5 total,   9073.2 free,   3403.7 used,   3852.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12479.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1838340 root      20   0 5982880 598780 546980 S  72.7   3.7  11:47.73 kresd
+1614390 root      20   0 9052052 602360 528484 R  63.6   3.7  44:30.40 kresd
+1683072 root      20   0 7393500 571900 515844 R  63.6   3.5  15:03.02 kresd
+1680900 root      20   0 9043048 583736 521688 R  54.5   3.6  18:25.14 kresd
+1683240 root      20   0 7852448 606028 546684 S  54.5   3.7  13:56.80 kresd
+1683557 root      20   0 9042152 600760 536060 S  54.5   3.7  14:24.39 kresd
+1838287 root      20   0 5983012 549960 503044 R  54.5   3.4  10:54.04 kresd
+1855662 root      20   0 5040168 577316 542244 S  54.5   3.5   0:12.19 kresd
+1614438 root      20   0 7871128 570008 502956 S  45.5   3.5  44:30.87 kresd
+1684040 root      20   0 9042660 575072 510928 R  45.5   3.5  14:09.13 kresd
+3589215 root      20   0 1305888 269100 100864 S  45.5   1.7     32,43 pktviso+
+1683403 root      20   0 7394280 488120 437944 S  36.4   3.0  14:07.19 kresd
+1855136 root      20   0 5025756 503684 473400 R  36.4   3.1   0:22.60 kresd
+Fri Jun 20 07:26:39 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          664.26%   1.018GiB / 10GiB     10.18%    0B / 0B   29.5GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.78%     201MiB / 1GiB        19.63%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.11%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            4.15%     90.3MiB / 1GiB       8.82%     0B / 0B   967kB / 658MB     18
+cf190eec1dde   dnstag            33.95%    810.6MiB / 2GiB      39.58%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          57.41%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.35%     32.95MiB / 200MiB    16.47%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         26.70%    153.4MiB / 1GiB      14.98%    0B / 0B   225MB / 100GB     20
+top - 07:26:42 up 45 days, 17:37,  1 user,  load average: 3.00, 3.12, 4.35
+Tasks: 257 total,   5 running, 252 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 57.6 us, 11.2 sy,  0.0 ni, 25.6 id,  2.4 wa,  0.0 hi,  3.2 si,  0.0 st 
+MiB Mem :  15883.5 total,   8932.8 free,   3468.4 used,   3928.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12415.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1838340 root      20   0 5982880 693244 636580 R  70.0   4.3  11:50.32 kresd
+1614390 root      20   0 9052052 694904 616676 S  60.0   4.3  44:32.73 kresd
+1683072 root      20   0 7393500 659964 601348 S  60.0   4.1  15:05.22 kresd
+1683240 root      20   0 7852448 697164 633340 S  60.0   4.3  13:59.28 kresd
+1683557 root      20   0 9042152 687536 620028 S  60.0   4.2  14:26.77 kresd
+1838287 root      20   0 5983012 635848 586244 S  60.0   3.9  10:56.08 kresd
+1855662 root      20   0 5040680 671264 630308 R  60.0   4.1   0:14.68 kresd
+1614438 root      20   0 7871128 658840 589356 R  50.0   4.1  44:33.01 kresd
+1680900 root      20   0 9043048 672952 607960 S  50.0   4.1  18:27.44 kresd
+1684040 root      20   0 9042660 664416 597712 R  50.0   4.1  14:11.33 kresd
+1855136 root      20   0 5025756 585732 552376 S  50.0   3.6   0:24.43 kresd
+3589215 root      20   0 1305888 269100 100864 S  50.0   1.7     32,43 pktviso+
+1683403 root      20   0 7394280 570680 518712 S  40.0   3.5  14:08.80 kresd
+Fri Jun 20 07:26:43 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          954.15%   1.051GiB / 10GiB     10.51%    0B / 0B   29.7GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.77%     201MiB / 1GiB        19.63%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.11%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.08%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            4.67%     90.33MiB / 1GiB      8.82%     0B / 0B   967kB / 658MB     18
+cf190eec1dde   dnstag            39.13%    811.3MiB / 2GiB      39.62%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          58.96%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.35%     32.95MiB / 200MiB    16.47%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         43.87%    155.8MiB / 1GiB      15.21%    0B / 0B   225MB / 100GB     20
+top - 07:26:46 up 45 days, 17:37,  1 user,  load average: 3.96, 3.31, 4.41
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 74.0 us, 12.6 sy,  0.0 ni,  7.1 id,  2.4 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   8819.5 free,   3518.7 used,   3990.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12364.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1855662 root      20   0 5057576 744096 694564 R  90.9   4.6   0:17.73 kresd
+1683072 root      20   0 7393500 733308 672516 R  81.8   4.5  15:08.08 kresd
+1683240 root      20   0 7852448 769612 697596 R  81.8   4.7  14:02.36 kresd
+1683557 root      20   0 9042152 762160 690300 R  81.8   4.7  14:29.82 kresd
+1614390 root      20   0 9052052 771064 688868 R  72.7   4.7  44:35.74 kresd
+1614438 root      20   0 7871128 732696 660396 R  72.7   4.5  44:35.79 kresd
+1680900 root      20   0 9043048 748728 680664 R  72.7   4.6  18:30.40 kresd
+1684040 root      20   0 9042660 740448 671568 R  72.7   4.6  14:14.23 kresd
+1838287 root      20   0 5983012 710472 659076 R  72.7   4.4  10:58.85 kresd
+1855136 root      20   0 5025756 657792 623672 R  72.7   4.0   0:26.83 kresd
+   1909 root      20   0 2296020 131016  72192 S  63.6   0.8 205:40.42 filebeat
+1838340 root      20   0 5982880 767868 701476 R  63.6   4.7  11:53.39 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,43 pktviso+
+Fri Jun 20 07:26:47 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          976.27%   1.174GiB / 10GiB     11.74%    0B / 0B   29.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.29%     201MiB / 1GiB        19.63%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.12%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.26%     90.34MiB / 1GiB      8.82%     0B / 0B   967kB / 658MB     18
+cf190eec1dde   dnstag            35.00%    813.4MiB / 2GiB      39.72%    0B / 0B   205kB / 37.1GB    18
+510e2cc331c4   pktvisor          60.62%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.39%     32.95MiB / 200MiB    16.47%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         30.78%    157.6MiB / 1GiB      15.39%    0B / 0B   225MB / 100GB     20
+top - 07:26:49 up 45 days, 17:37,  1 user,  load average: 4.77, 3.49, 4.46
+Tasks: 257 total,   9 running, 248 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 79.1 us, 10.9 sy,  0.0 ni,  4.7 id,  0.8 wa,  0.0 hi,  4.7 si,  0.0 st 
+MiB Mem :  15883.5 total,   8652.6 free,   3630.6 used,   4046.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12252.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1838340 root      20   0 5982880 839164 754596 D 100.0   5.2  11:56.41 kresd
+1614390 root      20   0 9052052 838136 746340 R  81.8   5.2  44:38.80 kresd
+1680900 root      20   0 9043048 814008 739288 R  81.8   5.0  18:33.39 kresd
+1683072 root      20   0 7393500 796412 731652 R  81.8   4.9  15:11.06 kresd
+1683240 root      20   0 7852448 837068 751612 R  81.8   5.1  14:05.34 kresd
+1683557 root      20   0 9042152 829616 748028 R  81.8   5.1  14:32.79 kresd
+1684040 root      20   0 9042660 809568 735952 R  81.8   5.0  14:17.21 kresd
+1838287 root      20   0 5983012 778056 722692 D  81.8   4.8  11:01.67 kresd
+1855662 root      20   0 5078568 814624 752036 D  81.8   5.0   0:20.75 kresd
+1614438 root      20   0 7871128 801816 726188 D  72.7   4.9  44:38.71 kresd
+1855136 root      20   0 5040476 726528 689208 R  63.6   4.5   0:29.42 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,43 pktviso+
+1683403 root      20   0 7394280 711992 655800 R  54.5   4.4  14:13.20 kresd
+Fri Jun 20 07:26:50 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          950.99%   1.269GiB / 10GiB     12.69%    0B / 0B   29.8GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.97%     201.1MiB / 1GiB      19.64%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.12%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.04%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.60%     90.38MiB / 1GiB      8.83%     0B / 0B   967kB / 658MB     18
+cf190eec1dde   dnstag            40.86%    813.8MiB / 2GiB      39.74%    0B / 0B   205kB / 37.2GB    18
+510e2cc331c4   pktvisor          61.92%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.42%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         33.65%    158.9MiB / 1GiB      15.52%    0B / 0B   225MB / 100GB     20
+top - 07:26:53 up 45 days, 17:38,  1 user,  load average: 4.77, 3.49, 4.46
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 78.5 us, 12.3 sy,  0.0 ni,  3.8 id,  0.8 wa,  0.0 hi,  4.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   8485.8 free,   3748.6 used,   4094.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12134.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9043048 874552 792920 R  90.9   5.4  18:36.41 kresd
+1684040 root      20   0 9042660 865120 789712 R  90.9   5.3  14:20.22 kresd
+1838287 root      20   0 5983012 835524 777860 R  90.9   5.1  11:04.54 kresd
+1614390 root      20   0 9052052 898552 800228 R  81.8   5.5  44:41.80 kresd
+1683072 root      20   0 7393500 856188 785412 R  81.8   5.3  15:14.07 kresd
+1683240 root      20   0 7852448 899268 799996 R  81.8   5.5  14:08.37 kresd
+1855662 root      20   0 5103784 877088 800036 R  81.8   5.4   0:23.74 kresd
+1614438 root      20   0 7871128 859416 781612 R  72.7   5.3  44:41.57 kresd
+1683403 root      20   0 7394280 768056 709048 R  72.7   4.7  14:15.41 kresd
+1683557 root      20   0 9042152 891184 798588 R  72.7   5.5  14:35.81 kresd
+1838340 root      20   0 5982880 905468 799908 R  72.7   5.6  11:59.44 kresd
+1855136 root      20   0 5040988 786048 745912 R  63.6   4.8   0:31.90 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,43 pktviso+
+Fri Jun 20 07:26:54 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          878.06%   1.416GiB / 10GiB     14.16%    0B / 0B   29.9GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.60%     201.1MiB / 1GiB      19.64%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.10%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.82%     90.4MiB / 1GiB       8.83%     0B / 0B   967kB / 662MB     18
+cf190eec1dde   dnstag            37.45%    817.1MiB / 2GiB      39.90%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          57.98%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.20%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         27.83%    153.1MiB / 1GiB      14.95%    0B / 0B   225MB / 100GB     20
+top - 07:26:57 up 45 days, 17:38,  1 user,  load average: 5.59, 3.68, 4.51
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 76.5 us, 12.9 sy,  0.0 ni,  4.5 id,  0.8 wa,  0.0 hi,  5.3 si,  0.0 st 
+MiB Mem :  15883.5 total,   8288.2 free,   3899.9 used,   4140.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11983.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1838340 root      20   0 5983008 966012 833956 R  90.9   5.9  12:02.31 kresd
+1855662 root      20   0 5133160 940044 837412 R  90.9   5.8   0:26.68 kresd
+1614390 root      20   0 9052052 951288 844004 R  81.8   5.8  44:44.76 kresd
+1680900 root      20   0 9043048 926264 834648 R  81.8   5.7  18:39.33 kresd
+1683240 root      20   0 7852448 959040 838652 R  81.8   5.9  14:11.25 kresd
+1683557 root      20   0 9042152 943152 836604 R  81.8   5.8  14:38.77 kresd
+1683072 root      20   0 7393500 908412 832644 R  72.7   5.6  15:16.97 kresd
+1684040 root      20   0 9042660 916576 834384 R  72.7   5.6  14:23.09 kresd
+1614438 root      20   0 7871128 909336 827948 R  63.6   5.6  44:44.43 kresd
+1614462 root      20   0  128560 110688 100856 R  63.6   0.7   3:56.81 kres-ca+
+1683403 root      20   0 7394280 818360 756664 R  63.6   5.0  14:17.57 kresd
+1838287 root      20   0 5983012 884672 823044 D  63.6   5.4  11:07.29 kresd
+1855136 root      20   0 5041500 839020 794936 S  63.6   5.2   0:34.43 kresd
+Fri Jun 20 07:26:58 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          996.84%   1.543GiB / 10GiB     15.43%    0B / 0B   29.9GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.04%     201.1MiB / 1GiB      19.64%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.10%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.10%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.69%     90.43MiB / 1GiB      8.83%     0B / 0B   967kB / 662MB     18
+cf190eec1dde   dnstag            36.26%    817.8MiB / 2GiB      39.93%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          65.95%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.52%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         29.17%    155.2MiB / 1GiB      15.16%    0B / 0B   225MB / 100GB     20
+top - 07:27:01 up 45 days, 17:38,  1 user,  load average: 6.26, 3.85, 4.57
+Tasks: 257 total,  14 running, 243 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 91.2 us,  5.8 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  2.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   8094.3 free,   4055.5 used,   4179.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11828.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1232221 1000      20   0 2050776 814688  11136 S 345.5   5.0  49:10.77 dnstag
+1683240 root      20   0 7852644 996.8m 870780 R  90.9   6.3  14:14.33 kresd
+1683557 root      20   0 9042152 989868 872316 R  72.7   6.1  14:41.71 kresd
+1838340 root      20   0 5983008   1.0g 866596 R  72.7   6.3  12:05.29 kresd
+1838287 root      20   0 5983012 927284 861572 R  63.6   5.7  11:10.10 kresd
+1855662 root      20   0 5206828 998192 868644 R  63.6   6.1   0:29.64 kresd
+1614390 root      20   0 9052052 996340 878564 R  54.5   6.1  44:47.71 kresd
+1680900 root      20   0 9043048 971952 871640 R  54.5   6.0  18:42.28 kresd
+1683072 root      20   0 7393500 947928 872196 R  54.5   5.8  15:19.97 kresd
+1683403 root      20   0 7394280 862520 797624 R  54.5   5.3  14:19.77 kresd
+1855136 root      20   0 5058396 881260 833592 R  54.5   5.4   0:36.94 kresd
+1614438 root      20   0 7871128 949516 865196 R  45.5   5.8  44:47.29 kresd
+1684040 root      20   0 9042660 957008 872912 R  45.5   5.9  14:26.08 kresd
+Fri Jun 20 07:27:02 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          968.99%   1.729GiB / 10GiB     17.29%    0B / 0B   30GB / 2.02GB     41
+c0b3c6feb2ba   kresman           1.39%     201.1MiB / 1GiB      19.64%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.23%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.04%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.96%     90.45MiB / 1GiB      8.83%     0B / 0B   967kB / 662MB     18
+cf190eec1dde   dnstag            38.97%    817.8MiB / 2GiB      39.93%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          65.86%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.07%     32.6MiB / 200MiB     16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         34.89%    154.8MiB / 1GiB      15.12%    0B / 0B   225MB / 100GB     20
+top - 07:27:05 up 45 days, 17:38,  1 user,  load average: 6.80, 4.01, 4.61
+Tasks: 257 total,  10 running, 247 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 82.8 us, 10.2 sy,  0.0 ni,  3.1 id,  0.0 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   7876.3 free,   4234.3 used,   4218.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11649.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1855662 root      20   0 5255980   1.0g 897060 R  81.8   6.5   0:32.74 kresd
+1683072 root      20   0 7393500 987604 907268 R  72.7   6.1  15:23.11 kresd
+1683557 root      20   0 9042152   1.0g 903420 S  72.7   6.4  14:44.81 kresd
+1684040 root      20   0 9042660 995888 906448 S  72.7   6.1  14:29.18 kresd
+1838287 root      20   0 5983012 966964 898180 R  72.7   5.9  11:13.15 kresd
+1614390 root      20   0 9052052   1.0g 910564 R  63.6   6.4  44:50.80 kresd
+1614438 root      20   0 7871128 989068 900012 R  63.6   6.1  44:50.36 kresd
+1680900 root      20   0 9043048 995.2m 906584 R  54.5   6.3  18:45.34 kresd
+3589215 root      20   0 1305888 269100 100864 S  54.5   1.7     32,43 pktviso+
+1683240 root      20   0 7852836   1.0g 899196 S  45.5   6.6  14:17.28 kresd
+1683403 root      20   0 7394280 903316 836920 S  45.5   5.6  14:22.11 kresd
+1855136 root      20   0 5058908 923116 873400 R  45.5   5.7   0:39.60 kresd
+   1909 root      20   0 2296020 134232  72192 S  36.4   0.8 205:46.06 filebeat
+Fri Jun 20 07:27:06 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          883.45%   1.855GiB / 10GiB     18.55%    0B / 0B   30GB / 2.02GB     41
+c0b3c6feb2ba   kresman           2.20%     201.2MiB / 1GiB      19.65%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.04%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.83%     90.48MiB / 1GiB      8.84%     0B / 0B   967kB / 664MB     18
+cf190eec1dde   dnstag            151.59%   818.3MiB / 2GiB      39.96%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          63.28%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.34%     32.6MiB / 200MiB     16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         33.82%    157MiB / 1GiB        15.33%    0B / 0B   225MB / 100GB     20
+top - 07:27:08 up 45 days, 17:38,  1 user,  load average: 7.22, 4.14, 4.65
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 79.7 us, 12.5 sy,  0.0 ni,  4.7 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :  15883.5 total,   7701.4 free,   4377.7 used,   4249.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11505.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683240 root      20   0 7853604   1.1g 923260 R  90.9   6.9  14:20.20 kresd
+1614438 root      20   0 7871128 996.8m 928556 R  81.8   6.3  44:53.30 kresd
+1680900 root      20   0 9043048   1.0g 933976 R  81.8   6.5  18:48.33 kresd
+1683072 root      20   0 7393500 994.2m 934148 R  81.8   6.3  15:26.11 kresd
+1684040 root      20   0 9042660   1.0g 934096 R  81.8   6.3  14:32.14 kresd
+1838287 root      20   0 5983012 977.8m 928132 R  81.8   6.2  11:16.01 kresd
+1855136 root      20   0 5079900 957164 903480 R  81.8   5.9   0:42.19 kresd
+1838340 root      20   0 5983396   1.1g 925220 R  72.7   6.9  12:11.16 kresd
+   1909 root      20   0 2296020 132424  72192 S  63.6   0.8 205:47.10 filebeat
+1614390 root      20   0 9052052   1.0g 935652 R  63.6   6.6  44:53.70 kresd
+1683403 root      20   0 7394280 935316 867896 S  63.6   5.8  14:24.33 kresd
+1683557 root      20   0 9042152   1.0g 926844 R  63.6   6.7  14:47.74 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,44 pktviso+
+Fri Jun 20 07:27:09 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          973.18%   1.957GiB / 10GiB     19.57%    0B / 0B   30GB / 2.02GB     41
+c0b3c6feb2ba   kresman           2.22%     201.2MiB / 1GiB      19.65%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.08%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.99%     90.5MiB / 1GiB       8.84%     0B / 0B   967kB / 664MB     18
+cf190eec1dde   dnstag            42.42%    818.7MiB / 2GiB      39.97%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          68.54%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.56%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         27.30%    155.8MiB / 1GiB      15.21%    0B / 0B   225MB / 100GB     20
+top - 07:27:12 up 45 days, 17:38,  1 user,  load average: 7.22, 4.14, 4.65
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 78.9 us, 12.5 sy,  0.0 ni,  3.9 id,  0.0 wa,  0.0 hi,  4.7 si,  0.0 st 
+MiB Mem :  15883.5 total,   7577.8 free,   4467.4 used,   4283.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11416.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9043244   1.0g 959192 R  90.9   6.8  18:51.31 kresd
+1683557 root      20   0 9042540   1.1g 948604 R  90.9   7.0  14:50.80 kresd
+1614438 root      20   0 7871128   1.0g 957228 R  81.8   6.5  44:56.36 kresd
+1683240 root      20   0 7854756   1.1g 952572 R  81.8   7.1  14:23.29 kresd
+1855662 root      20   0 5314156   1.1g 951844 R  81.8   7.0   0:38.67 kresd
+1683072 root      20   0 7393500   1.0g 961284 R  72.7   6.4  15:29.20 kresd
+1683403 root      20   0 7394280 966548 897336 R  72.7   5.9  14:26.62 kresd
+1684040 root      20   0 9042660   1.0g 960208 R  72.7   6.5  14:35.23 kresd
+1855136 root      20   0 5080284 987864 932792 R  72.7   6.1   0:44.83 kresd
+   1909 root      20   0 2296020 132856  72192 S  63.6   0.8 205:48.21 filebeat
+1614390 root      20   0 9052052   1.1g 959588 R  63.6   6.9  44:56.72 kresd
+1838287 root      20   0 5983268   1.0g 955012 R  63.6   6.3  11:18.94 kresd
+1838340 root      20   0 5983780   1.1g 950948 R  54.5   7.1  12:14.22 kresd
+Fri Jun 20 07:27:13 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          815.18%   2.099GiB / 10GiB     20.99%    0B / 0B   30.1GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.72%     201.3MiB / 1GiB      19.66%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.12%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.17%     90.53MiB / 1GiB      8.84%     0B / 0B   967kB / 664MB     18
+cf190eec1dde   dnstag            234.61%   819.1MiB / 2GiB      39.99%    0B / 0B   205kB / 37.4GB    18
+510e2cc331c4   pktvisor          59.05%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.25%     32.6MiB / 200MiB     16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         31.37%    155.2MiB / 1GiB      15.16%    0B / 0B   225MB / 100GB     20
+top - 07:27:16 up 45 days, 17:38,  1 user,  load average: 7.76, 4.30, 4.70
+Tasks: 257 total,  10 running, 247 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 74.2 us, 14.1 sy,  0.0 ni,  6.2 id,  0.0 wa,  0.0 hi,  5.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   7390.8 free,   4623.8 used,   4314.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11259.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1684040 root      20   0 9042660   1.0g 981968 R  90.9   6.7  14:38.25 kresd
+1838287 root      20   0 5983908   1.0g 977412 R  90.9   6.5  11:21.90 kresd
+3589215 root      20   0 1305888 269100 100864 S  90.9   1.7     32,44 pktviso+
+1614390 root      20   0 9052052   1.1g 976484 R  81.8   7.2  44:59.68 kresd
+1683557 root      20   0 9042540   1.1g 967164 R  81.8   7.2  14:53.73 kresd
+1614438 root      20   0 7871128   1.0g 979500 R  63.6   6.6  44:59.34 kresd
+1680900 root      20   0 9043756   1.1g 976728 R  63.6   7.0  18:54.32 kresd
+1683072 root      20   0 7393884   1.0g 983428 D  63.6   6.6  15:32.18 kresd
+1683240 root      20   0 7854756   1.1g 972028 R  63.6   7.3  14:26.26 kresd
+1683403 root      20   0 7394280 993940 923704 R  63.6   6.1  14:28.89 kresd
+1838340 root      20   0 5983780   1.1g 971428 D  63.6   7.3  12:17.07 kresd
+1855662 root      20   0 5314284   1.1g 973988 R  63.6   7.2   0:41.60 kresd
+1855136 root      20   0 5080284 989.6m 955576 D  45.5   6.2   0:47.48 kresd
+Fri Jun 20 07:27:17 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          972.23%   2.133GiB / 10GiB     21.33%    0B / 0B   30.1GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.65%     201.3MiB / 1GiB      19.66%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.08%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.29%     90.55MiB / 1GiB      8.84%     0B / 0B   967kB / 664MB     18
+cf190eec1dde   dnstag            40.77%    819.5MiB / 2GiB      40.02%    0B / 0B   205kB / 37.5GB    18
+510e2cc331c4   pktvisor          68.29%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.05%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         28.76%    154.6MiB / 1GiB      15.10%    0B / 0B   225MB / 100GB     20
+top - 07:27:20 up 45 days, 17:38,  1 user,  load average: 8.18, 4.45, 4.75
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 76.0 us, 10.1 sy,  0.0 ni,  7.8 id,  0.0 wa,  0.0 hi,  6.2 si,  0.0 st 
+MiB Mem :  15883.5 total,   7271.1 free,   4716.9 used,   4340.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11166.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9044844   1.1g 994648 R 110.0   7.3  18:57.40 kresd
+1614390 root      20   0 9052052   1.1g 994660 R 100.0   7.4  45:02.70 kresd
+1684040 root      20   0 9042660   1.1g 978.7m R 100.0   6.8  14:41.33 kresd
+1855662 root      20   0 5314028   1.1g 996644 R 100.0   7.3   0:44.67 kresd
+1614438 root      20   0 7871128   1.0g 998828 R  90.0   6.7  45:02.36 kresd
+1683072 root      20   0 7394524   1.0g 980.0m R  90.0   6.8  15:35.27 kresd
+1683240 root      20   0 7854756   1.2g 993532 R  90.0   7.4  14:29.33 kresd
+1838287 root      20   0 5984420   1.0g 996228 R  90.0   6.6  11:24.87 kresd
+1683557 root      20   0 9043308   1.1g 989948 R  80.0   7.4  14:56.85 kresd
+1855136 root      20   0 5080284   1.0g 978488 R  80.0   6.4   0:50.12 kresd
+1683403 root      20   0 7394280 994.9m 947896 R  70.0   6.3  14:31.18 kresd
+3589215 root      20   0 1305888 269100 100864 S  70.0   1.7     32,44 pktviso+
+1838340 root      20   0 5983908   1.2g 989092 S  60.0   7.6  12:20.23 kresd
+Fri Jun 20 07:27:21 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          972.38%   2.378GiB / 10GiB     23.78%    0B / 0B   30.1GB / 2.02GB   47
+c0b3c6feb2ba   kresman           2.41%     201.3MiB / 1GiB      19.66%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.21%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.77%     90.58MiB / 1GiB      8.85%     0B / 0B   967kB / 664MB     18
+cf190eec1dde   dnstag            36.68%    819.9MiB / 2GiB      40.03%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          68.26%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.33%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         27.71%    155.6MiB / 1GiB      15.20%    0B / 0B   225MB / 100GB     20
+top - 07:27:24 up 45 days, 17:38,  1 user,  load average: 8.97, 4.67, 4.82
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 73.4 us, 13.3 sy,  0.0 ni,  7.8 id,  0.0 wa,  0.0 hi,  5.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   7051.9 free,   4909.1 used,   4368.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10974.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9052052   1.2g 984.6m R 100.0   7.6  45:05.72 kresd
+1683072 root      20   0 7395036   1.1g 995.6m R  90.9   6.9  15:38.26 kresd
+1683557 root      20   0 9044204   1.2g 983.2m S  90.9   7.5  14:59.72 kresd
+1614438 root      20   0 7871128   1.1g 993.3m R  81.8   6.9  45:05.34 kresd
+1684040 root      20   0 9042660   1.1g 996.2m R  81.8   7.0  14:44.33 kresd
+1838287 root      20   0 5985060   1.1g 991.1m R  81.8   6.8  11:27.82 kresd
+3589215 root      20   0 1305888 269100 100864 S  81.8   1.7     32,44 pktviso+
+1680900 root      20   0 9044844   1.2g 984.7m R  72.7   7.5  19:00.32 kresd
+1683240 root      20   0 7854756   1.2g 986.1m R  72.7   7.7  14:32.31 kresd
+1838340 root      20   0 5984804   1.2g 983.0m R  72.7   7.7  12:23.07 kresd
+1855136 root      20   0 5104860   1.0g 996280 R  72.7   6.5   0:52.69 kresd
+1855662 root      20   0 5387372   1.2g 987.3m R  63.6   7.6   0:47.66 kresd
+1683403 root      20   0 7394280   1.0g 968888 R  45.5   6.4  14:33.50 kresd
+Fri Jun 20 07:27:25 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          893.96%   2.363GiB / 10GiB     23.63%    0B / 0B   30.1GB / 2.02GB   45
+c0b3c6feb2ba   kresman           2.18%     201.4MiB / 1GiB      19.66%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          9.90%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.14%     90.61MiB / 1GiB      8.85%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            32.09%    820.3MiB / 2GiB      40.05%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          70.92%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.51%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         26.93%    154.9MiB / 1GiB      15.13%    0B / 0B   225MB / 100GB     20
+top - 07:27:27 up 45 days, 17:38,  1 user,  load average: 8.97, 4.67, 4.82
+Tasks: 261 total,  13 running, 248 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 81.9 us, 12.3 sy,  0.0 ni,  0.7 id,  0.0 wa,  0.0 hi,  5.1 si,  0.0 st 
+MiB Mem :  15883.5 total,   6999.6 free,   4934.5 used,   4394.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10949.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683557 root      20   0 9044588   1.2g 998.1m R  83.3   7.6  15:02.65 kresd
+1838340 root      20   0 5984804   1.2g 999.7m R  83.3   7.9  12:26.09 kresd
+1859591 root      20   0    6596   4992   1792 R  75.0   0.0   0:00.75 netstat
+1683072 root      20   0 7395744   1.1g   1.0g R  66.7   7.0  15:41.26 kresd
+1683403 root      20   0 7394280   1.0g 988472 S  66.7   6.5  14:35.86 kresd
+1855662 root      20   0 5387372   1.2g   1.0g R  66.7   7.7   0:50.62 kresd
+1614390 root      20   0 9052052   1.2g   1.0g R  58.3   7.7  45:08.67 kresd
+1614438 root      20   0 7871128   1.1g   1.0g R  58.3   7.0  45:08.28 kresd
+1680900 root      20   0 9045228   1.2g   1.0g R  58.3   7.6  19:03.28 kresd
+1683240 root      20   0 7854756   1.2g   1.0g R  58.3   7.8  14:35.21 kresd
+1684040 root      20   0 9042660   1.1g   1.0g R  58.3   7.1  14:47.31 kresd
+1838287 root      20   0 5985896   1.1g   1.0g R  58.3   6.9  11:30.75 kresd
+1855136 root      20   0 5104860   1.0g 988.4m R  58.3   6.6   0:55.31 kresd
+Fri Jun 20 07:27:28 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          986.92%   2.553GiB / 10GiB     25.53%    0B / 0B   30.1GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.44%     201.4MiB / 1GiB      19.67%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.31%     111.5MiB / 256MiB    43.56%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.04%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.22%     90.62MiB / 1GiB      8.85%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            47.57%    820.8MiB / 2GiB      40.08%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          68.56%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.34%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         22.05%    157.2MiB / 1GiB      15.35%    0B / 0B   225MB / 100GB     20
+top - 07:27:31 up 45 days, 17:38,  1 user,  load average: 9.69, 4.89, 4.89
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 78.5 us, 11.5 sy,  0.0 ni,  3.8 id,  0.8 wa,  0.0 hi,  5.4 si,  0.0 st 
+MiB Mem :  15883.5 total,   6782.7 free,   5125.0 used,   4421.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10758.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9044844   1.2g   1.0g R 100.0   7.8  19:06.10 kresd
+1683072 root      20   0 7395872   1.1g   1.0g R 100.0   7.2  15:44.14 kresd
+1838340 root      20   0 5984036   1.3g   1.0g R 100.0   8.1  12:29.09 kresd
+1683240 root      20   0 7854756   1.3g   1.0g R  90.0   8.1  14:38.16 kresd
+1683557 root      20   0 9045356   1.2g   1.0g R  90.0   7.8  15:05.52 kresd
+1684040 root      20   0 9043044   1.1g   1.0g R  90.0   7.3  14:50.19 kresd
+1838287 root      20   0 5985896   1.1g   1.0g R  90.0   7.0  11:33.65 kresd
+1855662 root      20   0 5469292   1.2g   1.0g R  90.0   8.0   0:53.63 kresd
+1614438 root      20   0 7871128   1.1g   1.0g R  80.0   7.2  45:11.18 kresd
+1855136 root      20   0 5104860   1.0g   1.0g S  70.0   6.7   0:57.93 kresd
+3589215 root      20   0 1305888 269100 100864 S  70.0   1.7     32,44 pktviso+
+   1909 root      20   0 2296020 128224  72192 S  60.0   0.8 205:53.66 filebeat
+1614390 root      20   0 9052052   1.2g   1.0g R  60.0   7.8  45:11.54 kresd
+Fri Jun 20 07:27:32 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          942.66%   2.628GiB / 10GiB     26.28%    0B / 0B   30.1GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.02%     201.4MiB / 1GiB      19.67%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.17%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.36%     90.65MiB / 1GiB      8.85%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            39.20%    821.1MiB / 2GiB      40.10%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          71.44%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.61%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         21.30%    157.2MiB / 1GiB      15.35%    0B / 0B   225MB / 100GB     20
+top - 07:27:35 up 45 days, 17:38,  1 user,  load average: 10.12, 5.06, 4.94
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 82.8 us, 10.9 sy,  0.0 ni,  2.3 id,  0.8 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :  15883.5 total,   6716.1 free,   5169.0 used,   4443.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10714.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9052052   1.2g   1.0g R 100.0   7.9  45:14.51 kresd
+1680900 root      20   0 9045228   1.2g   1.0g R 100.0   7.8  19:09.02 kresd
+1683557 root      20   0 9045356   1.2g   1.0g R 100.0   7.9  15:08.46 kresd
+1684040 root      20   0 9043556   1.1g   1.0g R 100.0   7.4  14:53.21 kresd
+1614438 root      20   0 7871128   1.1g   1.0g R  90.0   7.2  45:14.11 kresd
+1683403 root      20   0 7394280   1.0g 996.7m R  90.0   6.8  14:40.42 kresd
+1838340 root      20   0 5984036   1.3g   1.0g R  90.0   8.2  12:31.91 kresd
+1855136 root      20   0 5104860   1.1g   1.0g R  90.0   6.8   1:00.46 kresd
+1683072 root      20   0 7395872   1.1g   1.0g R  80.0   7.3  15:47.06 kresd
+1683240 root      20   0 7855524   1.3g   1.0g R  80.0   8.2  14:40.93 kresd
+1838287 root      20   0 5985896   1.1g   1.0g R  80.0   7.1  11:36.54 kresd
+1855662 root      20   0 5469100   1.3g   1.0g R  80.0   8.1   0:56.50 kresd
+3589215 root      20   0 1305888 269100 100864 S  50.0   1.7     32,44 pktviso+
+Fri Jun 20 07:27:36 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          963.46%   2.672GiB / 10GiB     26.72%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.32%     201.4MiB / 1GiB      19.67%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          5.59%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.17%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     30.32MiB / 1GiB      2.96%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            7.04%     90.68MiB / 1GiB      8.86%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            39.96%    821.8MiB / 2GiB      40.13%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          65.98%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.58%     32.6MiB / 200MiB     16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         28.19%    153.6MiB / 1GiB      15.00%    0B / 0B   225MB / 100GB     20
+top - 07:27:39 up 45 days, 17:38,  1 user,  load average: 10.75, 5.28, 5.01
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 73.4 us, 10.9 sy,  0.0 ni, 11.7 id,  0.0 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   6634.6 free,   5230.1 used,   4464.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10653.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045228   1.2g   1.0g R  90.9   8.0  19:12.03 kresd
+1838340 root      20   0 5984804   1.3g   1.0g R  90.9   8.3  12:35.01 kresd
+1614390 root      20   0 9052052   1.2g   1.0g R  81.8   8.0  45:17.48 kresd
+1614438 root      20   0 7871128   1.1g   1.0g R  81.8   7.3  45:17.19 kresd
+1684040 root      20   0 9044068   1.2g   1.0g R  72.7   7.5  14:56.26 kresd
+1855136 root      20   0 5104988   1.1g   1.0g R  72.7   6.9   1:03.18 kresd
+1232221 1000      20   0 2050776 814688  11136 S  63.6   5.0  49:35.46 dnstag
+1683072 root      20   0 7395872   1.1g   1.0g S  63.6   7.4  15:50.13 kresd
+1683557 root      20   0 9044588   1.3g   1.0g R  63.6   8.1  15:11.47 kresd
+1855662 root      20   0 5469292   1.3g   1.0g R  63.6   8.2   0:59.53 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,44 pktviso+
+1683403 root      20   0 7394280   1.1g   1.0g R  54.5   6.9  14:42.74 kresd
+1838287 root      20   0 5985896   1.1g   1.0g R  54.5   7.2  11:39.60 kresd
+Fri Jun 20 07:27:40 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          971.82%   2.718GiB / 10GiB     27.18%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.10%     201.5MiB / 1GiB      19.67%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.07%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.34%     92.79MiB / 1GiB      9.06%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            250.25%   821.9MiB / 2GiB      40.13%    0B / 0B   205kB / 37.7GB    18
+510e2cc331c4   pktvisor          57.82%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.81%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         20.71%    155.8MiB / 1GiB      15.22%    0B / 0B   225MB / 100GB     20
+top - 07:27:43 up 45 days, 17:38,  1 user,  load average: 10.75, 5.28, 5.01
+Tasks: 257 total,  11 running, 246 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 74.4 us, 12.4 sy,  0.0 ni,  7.0 id,  0.8 wa,  0.0 hi,  5.4 si,  0.0 st 
+MiB Mem :  15883.5 total,   6526.9 free,   5317.0 used,   4484.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10566.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683557 root      20   0 9044588   1.3g   1.0g R  90.9   8.1  15:14.20 kresd
+1614438 root      20   0 7871128   1.2g   1.0g R  81.8   7.4  45:20.08 kresd
+1683072 root      20   0 7395676   1.2g   1.0g R  81.8   7.5  15:53.01 kresd
+1683240 root      20   0 7854756   1.3g   1.0g R  81.8   8.3  14:46.72 kresd
+1838340 root      20   0 5983652   1.3g   1.0g R  81.8   8.5  12:37.93 kresd
+1855662 root      20   0 5469100   1.3g   1.0g R  81.8   8.2   1:02.31 kresd
+1614390 root      20   0 9052052   1.3g   1.0g R  72.7   8.1  45:20.38 kresd
+1680900 root      20   0 9045228   1.2g   1.0g S  72.7   8.0  19:14.88 kresd
+1684040 root      20   0 9044712   1.2g   1.0g S  72.7   7.6  14:59.10 kresd
+1838287 root      20   0 5985896   1.1g   1.0g R  72.7   7.2  11:42.45 kresd
+1855136 root      20   0 5133660   1.1g   1.0g R  72.7   7.0   1:05.86 kresd
+3589215 root      20   0 1305888 269100 100864 S  72.7   1.7     32,44 pktviso+
+1683403 root      20   0 7394280   1.1g   1.0g R  45.5   6.9  14:45.10 kresd
+Fri Jun 20 07:27:44 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1046.51%   2.962GiB / 10GiB     29.62%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.36%      201.5MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.06%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.08%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.77%      92.82MiB / 1GiB      9.06%     0B / 0B   967kB / 668MB     18
+cf190eec1dde   dnstag            23.13%     822.4MiB / 2GiB      40.15%    0B / 0B   205kB / 37.9GB    18
+510e2cc331c4   pktvisor          57.89%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.24%      32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         29.12%     156.3MiB / 1GiB      15.26%    0B / 0B   225MB / 100GB     20
+top - 07:27:46 up 45 days, 17:38,  1 user,  load average: 11.33, 5.49, 5.08
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 71.1 us, 15.6 sy,  0.0 ni,  7.8 id,  0.0 wa,  0.0 hi,  5.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   6293.9 free,   5525.2 used,   4509.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10358.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045996   1.3g   1.0g R 100.0   8.1  19:18.00 kresd
+1683557 root      20   0 9044588   1.3g   1.0g R 100.0   8.2  15:17.39 kresd
+1614438 root      20   0 7871128   1.2g   1.0g R  90.0   7.6  45:23.26 kresd
+1684040 root      20   0 9044712   1.2g   1.0g S  90.0   7.7  15:02.27 kresd
+1838287 root      20   0 5985828   1.1g   1.0g R  90.0   7.4  11:45.67 kresd
+1855136 root      20   0 5134044   1.1g   1.0g R  90.0   7.1   1:08.85 kresd
+3589215 root      20   0 1305888 269100 100864 S  90.0   1.7     32,44 pktviso+
+1683072 root      20   0 7395872   1.2g   1.0g R  80.0   7.7  15:56.14 kresd
+1683403 root      20   0 7394280   1.1g   1.0g R  70.0   7.0  14:47.79 kresd
+1838340 root      20   0 5984036   1.3g   1.0g R  70.0   8.6  12:40.99 kresd
+1683240 root      20   0 7854756   1.3g   1.0g R  60.0   8.5  14:50.01 kresd
+1855662 root      20   0 5469228   1.3g   1.0g R  60.0   8.5   1:05.73 kresd
+   1909 root      20   0 2296020 130564  72192 S  50.0   0.8 205:57.89 filebeat
+Fri Jun 20 07:27:47 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          965.71%   2.977GiB / 10GiB     29.77%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.71%     201.5MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.06%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.05%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.02%     92.84MiB / 1GiB      9.07%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            34.99%    823MiB / 2GiB        40.19%    0B / 0B   205kB / 38GB      18
+510e2cc331c4   pktvisor          66.45%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.42%     32.6MiB / 200MiB     16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         17.37%    160MiB / 1GiB        15.63%    0B / 0B   225MB / 100GB     20
+top - 07:27:50 up 45 days, 17:38,  1 user,  load average: 12.42, 5.81, 5.19
+Tasks: 257 total,  11 running, 246 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 82.2 us, 10.1 sy,  0.0 ni,  3.9 id,  0.0 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   6223.6 free,   5577.1 used,   4528.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10306.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.3g   1.0g S  72.7   8.4  45:26.45 kresd
+1680900 root      20   0 9045996   1.3g   1.0g R  72.7   8.2  19:20.99 kresd
+1855662 root      20   0 5469228   1.3g   1.0g R  72.7   8.5   1:08.53 kresd
+   1909 root      20   0 2296020 128208  72192 S  63.6   0.8 205:58.80 filebeat
+1614438 root      20   0 7871128   1.2g   1.0g R  63.6   7.6  45:26.17 kresd
+1683072 root      20   0 7395872   1.2g   1.0g R  63.6   7.7  15:59.11 kresd
+1683557 root      20   0 9045356   1.3g   1.0g R  63.6   8.3  15:20.36 kresd
+1684040 root      20   0 9044712   1.2g   1.0g R  63.6   7.8  15:05.27 kresd
+1838340 root      20   0 5984036   1.4g   1.0g R  63.6   8.8  12:44.16 kresd
+1683403 root      20   0 7394280   1.1g   1.0g R  54.5   7.1  14:50.03 kresd
+1838287 root      20   0 5985828   1.1g   1.0g R  54.5   7.4  11:48.53 kresd
+1855136 root      20   0 5134044   1.1g   1.0g R  54.5   7.1   1:11.42 kresd
+3589215 root      20   0 1305888 269100 100864 S  54.5   1.7     32,44 pktviso+
+Fri Jun 20 07:27:51 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1105.68%   3.066GiB / 10GiB     30.66%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.97%      201.5MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          4.92%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.15%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.62%      92.86MiB / 1GiB      9.07%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            10.83%     823.1MiB / 2GiB      40.19%    0B / 0B   205kB / 38GB      18
+510e2cc331c4   pktvisor          29.22%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.46%      32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         36.61%     158.3MiB / 1GiB      15.46%    0B / 0B   225MB / 100GB     20
+top - 07:27:54 up 45 days, 17:39,  1 user,  load average: 13.11, 6.07, 5.28
+Tasks: 257 total,  14 running, 243 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 34.1 us, 62.8 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  3.1 si,  0.0 st 
+MiB Mem :  15883.5 total,   6128.1 free,   5655.9 used,   4544.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10227.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1684040 root      20   0 9044580   1.2g   1.0g R 100.0   7.9  15:08.56 kresd
+1614390 root      20   0 9053592   1.3g   1.0g R  90.9   8.5  45:29.65 kresd
+1680900 root      20   0 9045996   1.3g   1.0g R  90.9   8.3  19:24.09 kresd
+1683072 root      20   0 7396064   1.2g   1.0g R  90.9   7.9  16:02.34 kresd
+1855136 root      20   0 5166812   1.1g   1.0g R  90.9   7.2   1:14.62 kresd
+1683240 root      20   0 7855524   1.3g   1.0g R  81.8   8.7  14:56.23 kresd
+1683557 root      20   0 9045356   1.3g   1.0g R  81.8   8.4  15:23.51 kresd
+1838287 root      20   0 5985828   1.2g   1.0g R  81.8   7.5  11:51.81 kresd
+1855662 root      20   0 5469868   1.3g   1.0g R  81.8   8.6   1:11.81 kresd
+1614438 root      20   0 7871128   1.2g   1.0g R  72.7   7.7  45:29.31 kresd
+1683403 root      20   0 7394280   1.1g   1.0g R  72.7   7.2  14:52.94 kresd
+1838340 root      20   0 5984036   1.4g   1.0g R  63.6   8.8  12:47.33 kresd
+   1909 root      20   0 2296020 134916  72192 S  36.4   0.8 205:59.87 filebeat
+Fri Jun 20 07:27:55 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          910.38%   3.267GiB / 10GiB     32.67%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.20%     201.5MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.08%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.63%     92.88MiB / 1GiB      9.07%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            216.01%   823.6MiB / 2GiB      40.22%    0B / 0B   205kB / 38GB      18
+510e2cc331c4   pktvisor          31.19%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.36%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         19.18%    160MiB / 1GiB        15.63%    0B / 0B   225MB / 100GB     20
+top - 07:27:58 up 45 days, 17:39,  1 user,  load average: 13.11, 6.07, 5.28
+Tasks: 257 total,  11 running, 246 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 80.9 us, 11.5 sy,  0.0 ni,  3.1 id,  0.0 wa,  0.0 hi,  4.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   5914.1 free,   5856.0 used,   4558.8 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10027.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683072 root      20   0 7396064   1.2g   1.1g S  90.9   8.0  16:05.55 kresd
+1838340 root      20   0 5983652   1.4g   1.1g R  90.9   9.0  12:50.53 kresd
+1855136 root      20   0 5207900   1.1g   1.0g R  81.8   7.4   1:17.74 kresd
+1614390 root      20   0 9053592   1.3g   1.0g R  72.7   8.5  45:32.69 kresd
+1614438 root      20   0 7871128   1.2g   1.1g R  72.7   7.9  45:32.40 kresd
+1680900 root      20   0 9045996   1.3g   1.0g R  72.7   8.4  19:27.39 kresd
+1683403 root      20   0 7394408   1.1g   1.0g R  72.7   7.3  14:56.00 kresd
+1684040 root      20   0 9044580   1.3g   1.1g R  72.7   8.2  15:11.72 kresd
+3589215 root      20   0 1305888 269100 100864 S  72.7   1.7     32,44 pktviso+
+1838287 root      20   0 5986024   1.2g   1.1g R  63.6   7.7  11:55.05 kresd
+   1909 root      20   0 2296020 135044  72192 S  54.5   0.8 206:00.78 filebeat
+1683240 root      20   0 7854112   1.3g   1.1g S  54.5   8.6  14:59.29 kresd
+1855662 root      20   0 5567916   1.3g   1.1g R  54.5   8.6   1:14.95 kresd
+Fri Jun 20 07:27:59 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1136.57%   3.287GiB / 10GiB     32.87%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.06%      201.5MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.07%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.06%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.53%      93.39MiB / 1GiB      9.12%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            5.96%      823.7MiB / 2GiB      40.22%    0B / 0B   205kB / 38GB      18
+510e2cc331c4   pktvisor          25.74%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.40%      32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         12.12%     160.1MiB / 1GiB      15.63%    0B / 0B   225MB / 100GB     20
+top - 07:28:02 up 45 days, 17:39,  1 user,  load average: 13.26, 6.21, 5.33
+Tasks: 257 total,  14 running, 243 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.4 us, 85.8 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5881.8 free,   5876.7 used,   4570.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10006.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.3g   1.1g R  90.9   8.6  45:36.03 kresd
+1614438 root      20   0 7871128   1.2g   1.1g R  90.9   8.0  45:35.76 kresd
+1683072 root      20   0 7396064   1.2g   1.1g R  90.9   8.0  16:08.83 kresd
+1683240 root      20   0 7854240   1.4g   1.1g R  90.9   8.7  15:02.75 kresd
+1838287 root      20   0 5986024   1.2g   1.1g R  90.9   7.7  11:58.37 kresd
+1855136 root      20   0 5207900   1.2g   1.0g R  90.9   7.4   1:21.03 kresd
+1855662 root      20   0 5567340   1.3g   1.1g R  90.9   8.6   1:18.33 kresd
+1680900 root      20   0 9045996   1.3g   1.1g R  81.8   8.4  19:30.56 kresd
+1683403 root      20   0 7394664   1.1g   1.0g R  81.8   7.4  14:59.28 kresd
+1683557 root      20   0 9044588   1.3g   1.1g R  81.8   8.5  15:30.12 kresd
+1684040 root      20   0 9044776   1.3g   1.1g R  81.8   8.2  15:14.99 kresd
+1838340 root      20   0 5984036   1.4g   1.1g R  81.8   8.9  12:53.83 kresd
+   1909 root      20   0 2296020 132596  72192 S  36.4   0.8 206:01.45 filebeat
+Fri Jun 20 07:28:03 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          993.05%   3.423GiB / 10GiB     34.23%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.21%     201.6MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.23%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            5.48%     93.41MiB / 1GiB      9.12%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            53.26%    824MiB / 2GiB        40.23%    0B / 0B   205kB / 38GB      18
+510e2cc331c4   pktvisor          65.25%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.35%     32.59MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         31.87%    157.2MiB / 1GiB      15.36%    0B / 0B   225MB / 100GB     20
+top - 07:28:05 up 45 days, 17:39,  1 user,  load average: 13.56, 6.39, 5.39
+Tasks: 257 total,  14 running, 243 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 75.6 us, 19.8 sy,  0.0 ni,  0.8 id,  0.0 wa,  0.0 hi,  3.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5701.1 free,   6039.1 used,   4588.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9844.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1232221 1000      20   0 2050776 814688  11136 R 400.0   5.0  49:50.29 dnstag
+1680900 root      20   0 9045228   1.3g   1.1g R  90.9   8.5  19:33.80 kresd
+1838340 root      20   0 5984036   1.4g   1.1g R  90.9   8.8  12:57.31 kresd
+1614390 root      20   0 9053592   1.3g   1.1g R  72.7   8.6  45:39.40 kresd
+1683403 root      20   0 7395564   1.2g   1.0g R  72.7   7.5  15:02.48 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  63.6   8.1  45:38.79 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  54.5   8.7  15:33.39 kresd
+1855136 root      20   0 5265440   1.2g   1.1g R  54.5   7.6   1:24.18 kresd
+1683072 root      20   0 7396448   1.3g   1.1g R  45.5   8.1  16:12.09 kresd
+1683240 root      20   0 7854436   1.4g   1.1g R  45.5   8.9  15:06.07 kresd
+1855662 root      20   0 5567340   1.4g   1.1g R  45.5   9.0   1:21.79 kresd
+3589215 root      20   0 1305888 269100 100864 S  45.5   1.7     32,44 pktviso+
+   1909 root      20   0 2296020 133572  72192 S  36.4   0.8 206:02.47 filebeat
+Fri Jun 20 07:28:06 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1117.77%   3.642GiB / 10GiB     36.42%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.70%      201.6MiB / 1GiB      19.68%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          4.23%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.14%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.72%      93.43MiB / 1GiB      9.12%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            7.46%      824.3MiB / 2GiB      40.25%    0B / 0B   205kB / 38.1GB    18
+510e2cc331c4   pktvisor          24.84%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.94%      32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         20.31%     153.9MiB / 1GiB      15.03%    0B / 0B   225MB / 100GB     20
+top - 07:28:09 up 45 days, 17:39,  1 user,  load average: 13.60, 6.52, 5.44
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 19.5 us, 78.9 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  1.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   5514.8 free,   6212.9 used,   4601.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9670.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614438 root      20   0 7871128   1.3g   1.1g R  83.3   8.2  45:42.03 kresd
+1680900 root      20   0 9045228   1.4g   1.1g R  83.3   8.7  19:37.29 kresd
+1683072 root      20   0 7396448   1.3g   1.1g R  83.3   8.3  16:15.32 kresd
+1683240 root      20   0 7854628   1.4g   1.1g R  83.3   8.9  15:09.27 kresd
+1683403 root      20   0 7395820   1.2g   1.0g R  83.3   7.6  15:05.73 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  83.3   8.7  15:36.54 kresd
+1684040 root      20   0 9044968   1.3g   1.1g R  83.3   8.4  15:21.55 kresd
+1838287 root      20   0 5986216   1.2g   1.1g R  83.3   8.0  12:04.56 kresd
+1838340 root      20   0 5984036   1.4g   1.1g R  83.3   9.2  13:00.68 kresd
+1855136 root      20   0 5265440   1.2g   1.1g R  83.3   7.7   1:27.37 kresd
+1855662 root      20   0 5567532   1.4g   1.1g R  83.3   8.9   1:25.01 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  75.0   8.8  45:42.70 kresd
+1614380 root      20   0   45384  39388  10880 S  25.0   0.2  21:22.82 supervi+
+Fri Jun 20 07:28:10 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1019.95%   3.943GiB / 10GiB     39.43%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.65%      201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.08%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.16%      93.55MiB / 1GiB      9.14%     0B / 0B   967kB / 672MB     18
+cf190eec1dde   dnstag            42.21%     824.6MiB / 2GiB      40.26%    0B / 0B   205kB / 38.1GB    18
+510e2cc331c4   pktvisor          60.96%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.51%      32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         21.09%     157.3MiB / 1GiB      15.36%    0B / 0B   225MB / 100GB     20
+top - 07:28:13 up 45 days, 17:39,  1 user,  load average: 13.60, 6.52, 5.44
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 78.7 us, 10.2 sy,  0.0 ni,  4.7 id,  0.0 wa,  0.0 hi,  6.3 si,  0.0 st 
+MiB Mem :  15883.5 total,   5169.4 free,   6551.0 used,   4608.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9332.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045996   1.4g   1.1g R 100.0   8.8  19:40.54 kresd
+1855662 root      20   0 5682220   1.4g   1.1g R  90.9   9.0   1:28.40 kresd
+1683403 root      20   0 7395820   1.2g   1.1g R  81.8   7.8  15:08.88 kresd
+1838287 root      20   0 5986216   1.3g   1.1g R  81.8   8.3  12:07.76 kresd
+1855136 root      20   0 5322976   1.2g   1.1g R  81.8   7.9   1:30.54 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  72.7   9.0  45:45.78 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  72.7   8.5  45:45.33 kresd
+1683072 root      20   0 7396448   1.3g   1.1g R  72.7   8.4  16:18.32 kresd
+1683240 root      20   0 7854628   1.4g   1.1g R  72.7   9.3  15:12.82 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  72.7   9.0  15:40.03 kresd
+1684040 root      20   0 9045352   1.3g   1.1g R  72.7   8.5  15:24.52 kresd
+3589215 root      20   0 1305888 269100 100864 S  72.7   1.7     32,44 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S  63.6   5.0  49:54.20 dnstag
+Fri Jun 20 07:28:14 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1071.63%   3.987GiB / 10GiB     39.87%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.97%      201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.17%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.73%      93.58MiB / 1GiB      9.14%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            24.48%     824.4MiB / 2GiB      40.25%    0B / 0B   205kB / 38.2GB    18
+510e2cc331c4   pktvisor          42.84%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.31%      32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         25.93%     153.9MiB / 1GiB      15.03%    0B / 0B   225MB / 100GB     20
+top - 07:28:17 up 45 days, 17:39,  1 user,  load average: 14.99, 6.93, 5.58
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 12.8 us, 85.7 sy,  0.0 ni,  0.0 id,  0.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5130.9 free,   6586.2 used,   4611.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9297.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683072 root      20   0 7397216   1.3g   1.1g R 100.0   8.4  16:21.61 kresd
+1684040 root      20   0 9045352   1.3g   1.1g R 100.0   8.5  15:27.68 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  90.9   9.2  45:49.10 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  90.9   8.5  45:48.35 kresd
+1680900 root      20   0 9044844   1.4g   1.1g R  90.9   8.9  19:43.48 kresd
+1683240 root      20   0 7855012   1.4g   1.1g R  90.9   9.2  15:15.88 kresd
+1683403 root      20   0 7395820   1.2g   1.1g R  90.9   7.8  15:11.88 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  90.9   9.1  15:43.15 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  90.9   8.3  12:10.74 kresd
+1855662 root      20   0 5682476   1.4g   1.1g R  90.9   9.1   1:31.53 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  81.8   9.4  13:06.74 kresd
+1855136 root      20   0 5323232   1.2g   1.1g R  81.8   8.0   1:33.64 kresd
+1614380 root      20   0   45616  39496  10880 S  36.4   0.2  21:23.49 supervi+
+Fri Jun 20 07:28:18 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1118.09%   3.827GiB / 10GiB     38.27%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.34%      201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.07%      93.6MiB / 1GiB       9.14%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            10.05%     824.4MiB / 2GiB      40.25%    0B / 0B   205kB / 38.2GB    18
+510e2cc331c4   pktvisor          28.13%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.33%      32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         24.19%     158.1MiB / 1GiB      15.44%    0B / 0B   225MB / 100GB     20
+top - 07:28:21 up 45 days, 17:39,  1 user,  load average: 14.83, 7.03, 5.62
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 84.7 us, 10.7 sy,  0.0 ni,  0.8 id,  0.0 wa,  0.0 hi,  3.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5244.9 free,   6469.5 used,   4614.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9414.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683403 root      20   0 7396204   1.2g   1.1g R 100.0   7.9  15:15.34 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  90.9   9.3  45:52.51 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  90.9   8.5  45:51.66 kresd
+1683557 root      20   0 9044204   1.4g   1.1g R  90.9   9.1  15:46.61 kresd
+1684040 root      20   0 9045352   1.3g   1.1g R  90.9   8.5  15:31.17 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  90.9   9.5  13:10.32 kresd
+1855136 root      20   0 5322976   1.2g   1.1g R  90.9   8.0   1:37.03 kresd
+1855662 root      20   0 5682604   1.4g   1.1g R  90.9   8.9   1:34.86 kresd
+1683072 root      20   0 7397216   1.3g   1.1g R  81.8   8.4  16:24.92 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  81.8   8.2  12:14.20 kresd
+1683240 root      20   0 7855012   1.4g   1.1g R  72.7   9.3  15:19.48 kresd
+1680900 root      20   0 9044844   1.4g   1.1g R  63.6   8.8  19:46.91 kresd
+1232221 1000      20   0 2050776 814688  11136 S  54.5   5.0  49:58.17 dnstag
+Fri Jun 20 07:28:22 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          968.73%   3.969GiB / 10GiB     39.69%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.02%     201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          6.59%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.16%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            4.10%     93.63MiB / 1GiB      9.14%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            53.39%    824.4MiB / 2GiB      40.26%    0B / 0B   205kB / 38.2GB    18
+510e2cc331c4   pktvisor          68.13%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.58%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         19.56%    158.1MiB / 1GiB      15.44%    0B / 0B   225MB / 100GB     20
+top - 07:28:24 up 45 days, 17:39,  1 user,  load average: 14.85, 7.16, 5.67
+Tasks: 257 total,  14 running, 243 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 84.5 us, 10.1 sy,  0.0 ni,  1.6 id,  0.0 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   5114.3 free,   6595.3 used,   4619.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9288.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045228   1.4g   1.1g R  90.9   8.9  19:50.01 kresd
+1683072 root      20   0 7396064   1.4g   1.1g R  90.9   8.8  16:27.96 kresd
+1683240 root      20   0 7855012   1.4g   1.1g R  90.9   9.2  15:22.54 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  90.9   9.2  15:49.63 kresd
+1855662 root      20   0 5682220   1.4g   1.1g R  90.9   9.0   1:38.03 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  81.8   9.5  13:13.43 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  72.7   9.2  45:55.57 kresd
+1683403 root      20   0 7395820   1.2g   1.1g R  72.7   7.9  15:18.02 kresd
+1684040 root      20   0 9046120   1.4g   1.1g R  72.7   8.8  15:34.21 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  72.7   8.5  12:17.26 kresd
+1855136 root      20   0 5322976   1.3g   1.1g R  72.7   8.1   1:39.83 kresd
+   1909 root      20   0 2296020 132536  72192 S  63.6   0.8 206:07.15 filebeat
+1614438 root      20   0 7871128   1.3g   1.1g R  63.6   8.5  45:54.60 kresd
+Fri Jun 20 07:28:25 UTC 2025
+CONTAINER ID   NAME              CPU %      MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          1055.75%   4.152GiB / 10GiB     41.52%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.40%      201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%      111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%      11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%      26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%      27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%      37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.85%      93.65MiB / 1GiB      9.15%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            33.11%     824.5MiB / 2GiB      40.26%    0B / 0B   205kB / 38.2GB    18
+510e2cc331c4   pktvisor          50.33%     220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.04%      32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%      10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         30.41%     159.6MiB / 1GiB      15.59%    0B / 0B   225MB / 100GB     20
+top - 07:28:28 up 45 days, 17:39,  1 user,  load average: 14.85, 7.16, 5.67
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 72.3 us, 13.1 sy,  0.0 ni,  8.5 id,  0.8 wa,  0.0 hi,  5.4 si,  0.0 st 
+MiB Mem :  15883.5 total,   4958.7 free,   6747.9 used,   4621.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9135.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614438 root      20   0 7872668   1.3g   1.1g R 100.0   8.5  45:57.85 kresd
+1683240 root      20   0 7855780   1.5g   1.1g R 100.0   9.3  15:25.94 kresd
+1683403 root      20   0 7395820   1.2g   1.1g R  90.0   8.0  15:21.32 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  90.0   8.6  12:20.41 kresd
+1855136 root      20   0 5322976   1.3g   1.1g R  90.0   8.1   1:43.15 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  80.0   9.1  45:58.68 kresd
+1680900 root      20   0 9045228   1.4g   1.1g R  80.0   9.2  19:53.45 kresd
+1683072 root      20   0 7396448   1.4g   1.1g R  80.0   8.8  16:31.21 kresd
+1683557 root      20   0 9044588   1.5g   1.1g R  80.0   9.4  15:53.12 kresd
+1684040 root      20   0 9046120   1.3g   1.1g R  80.0   8.7  15:37.20 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  70.0   9.7  13:16.81 kresd
+3589215 root      20   0 1305888 269100 100864 S  70.0   1.7     32,44 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S  60.0   5.0  50:03.37 dnstag
+Fri Jun 20 07:28:29 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          984.62%   3.97GiB / 10GiB      39.70%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.18%     201.6MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.06%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.53%     93.68MiB / 1GiB      9.15%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            45.93%    824.5MiB / 2GiB      40.26%    0B / 0B   205kB / 38.2GB    18
+510e2cc331c4   pktvisor          71.67%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.03%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         20.26%    157.5MiB / 1GiB      15.38%    0B / 0B   225MB / 100GB     20
+top - 07:28:32 up 45 days, 17:39,  1 user,  load average: 15.34, 7.39, 5.75
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 80.9 us,  9.9 sy,  0.0 ni,  5.3 id,  0.0 wa,  0.0 hi,  3.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5142.5 free,   6560.1 used,   4626.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9323.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1684040 root      20   0 9046120   1.3g   1.1g R 100.0   8.6  15:40.21 kresd
+1683403 root      20   0 7396204   1.2g   1.1g R  81.8   8.0  15:24.15 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  81.8   9.3  15:56.07 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  81.8   8.5  12:23.29 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  81.8   9.4  13:19.58 kresd
+1683240 root      20   0 7854628   1.4g   1.1g R  72.7   9.2  15:28.85 kresd
+1614390 root      20   0 9052052   1.4g   1.1g R  63.6   9.3  46:01.68 kresd
+1855136 root      20   0 5322976   1.3g   1.1g R  63.6   8.1   1:45.97 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,44 pktviso+
+1614438 root      20   0 7872668   1.3g   1.1g R  54.5   8.6  46:00.59 kresd
+1683072 root      20   0 7396448   1.4g   1.1g R  54.5   8.8  16:34.19 kresd
+1855662 root      20   0 5682216   1.4g   1.1g R  54.5   9.1   1:44.17 kresd
+1680900 root      20   0 9045996   1.4g   1.1g R  45.5   9.1  19:56.20 kresd
+Fri Jun 20 07:28:33 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          894.31%   4.036GiB / 10GiB     40.36%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.75%     201.7MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          9.00%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.07%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            3.37%     93.71MiB / 1GiB      9.15%     0B / 0B   967kB / 676MB     18
+cf190eec1dde   dnstag            100.94%   824.6MiB / 2GiB      40.26%    0B / 0B   205kB / 38.4GB    18
+510e2cc331c4   pktvisor          67.69%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.06%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         18.30%    159.4MiB / 1GiB      15.57%    0B / 0B   225MB / 100GB     20
+top - 07:28:36 up 45 days, 17:39,  1 user,  load average: 15.07, 7.47, 5.78
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 80.3 us, 12.6 sy,  0.0 ni,  2.4 id,  0.0 wa,  0.0 hi,  4.7 si,  0.0 st 
+MiB Mem :  15883.5 total,   5127.7 free,   6573.0 used,   4628.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9310.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.4g   1.1g R 110.0   9.2  46:04.69 kresd
+1680900 root      20   0 9044844   1.4g   1.1g R 110.0   9.1  19:59.22 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R 100.0   8.6  46:03.64 kresd
+1683240 root      20   0 7855012   1.4g   1.1g R 100.0   9.2  15:31.87 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R 100.0   9.2  15:59.01 kresd
+1855136 root      20   0 5388704   1.3g   1.1g R 100.0   8.2   1:48.94 kresd
+1683403 root      20   0 7396204   1.3g   1.1g R  90.0   8.1  15:27.06 kresd
+1684040 root      20   0 9046120   1.4g   1.1g R  90.0   8.9  15:43.32 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  90.0   8.6  12:26.39 kresd
+1838340 root      20   0 5984036   1.5g   1.1g R  90.0   9.4  13:22.64 kresd
+1683072 root      20   0 7396448   1.4g   1.1g R  80.0   8.8  16:37.20 kresd
+1855662 root      20   0 5682600   1.4g   1.1g R  80.0   9.1   1:47.29 kresd
+3589215 root      20   0 1305888 269100 100864 S  70.0   1.7     32,44 pktviso+
+Fri Jun 20 07:28:37 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          896.98%   3.922GiB / 10GiB     39.22%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.05%     201.7MiB / 1GiB      19.69%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          6.08%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.17%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     37.35MiB / 1GiB      3.65%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            70.59%    93.73MiB / 1GiB      9.15%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            37.74%    824.6MiB / 2GiB      40.26%    0B / 0B   205kB / 38.4GB    18
+510e2cc331c4   pktvisor          70.74%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.45%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.01%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         23.24%    156.8MiB / 1GiB      15.31%    0B / 0B   225MB / 100GB     20
+top - 07:28:40 up 45 days, 17:39,  1 user,  load average: 14.98, 7.58, 5.83
+Tasks: 261 total,  13 running, 248 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 77.4 us, 16.5 sy,  0.0 ni,  2.3 id,  0.0 wa,  0.0 hi,  3.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5201.9 free,   6495.8 used,   4631.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9387.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1232543 root      20   0 2600396  93356  52736 S 100.0   0.6   2:02.67 filebeat
+1855136 root      20   0 5388256   1.3g   1.1g R  90.9   8.2   1:51.96 kresd
+   1909 root      20   0 2296020 131064  72192 S  81.8   0.8 206:10.85 filebeat
+1680900 root      20   0 9045228   1.4g   1.1g R  81.8   9.1  20:02.35 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  81.8   9.2  16:02.14 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  72.7   8.5  46:06.62 kresd
+1684040 root      20   0 9046120   1.4g   1.1g R  72.7   9.0  15:46.43 kresd
+1855662 root      20   0 5682600   1.4g   1.1g R  72.7   9.0   1:50.35 kresd
+1860076 root      20   0    5828   4224   1920 R  72.7   0.0   0:00.32 netstat
+1683403 root      20   0 7396204   1.3g   1.1g S  63.6   8.1  15:30.10 kresd
+1838340 root      20   0 5984036   1.4g   1.1g R  63.6   9.3  13:25.75 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,44 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S  54.5   5.0  50:12.07 dnstag
+Fri Jun 20 07:28:41 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          827.50%   3.943GiB / 10GiB     39.43%    0B / 0B   30.2GB / 2.02GB   45
+c0b3c6feb2ba   kresman           2.16%     201.7MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.05%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.84%     93.75MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            252.74%   824.6MiB / 2GiB      40.27%    0B / 0B   205kB / 38.5GB    18
+510e2cc331c4   pktvisor          54.58%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.27%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         26.55%    156.8MiB / 1GiB      15.32%    0B / 0B   225MB / 100GB     20
+top - 07:28:43 up 45 days, 17:39,  1 user,  load average: 14.83, 7.67, 5.87
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 73.0 us, 11.9 sy,  0.0 ni, 11.1 id,  0.0 wa,  0.0 hi,  4.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   5212.5 free,   6480.7 used,   4635.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9402.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683072 root      20   0 7396064   1.4g   1.1g R 100.0   8.7  16:42.82 kresd
+1683240 root      20   0 7855012   1.4g   1.1g R  90.9   9.2  15:37.47 kresd
+1855136 root      20   0 5388448   1.3g   1.1g R  81.8   8.3   1:54.69 kresd
+1614390 root      20   0 9052052   1.5g   1.1g R  72.7   9.4  46:10.71 kresd
+1838340 root      20   0 5984804   1.4g   1.1g R  72.7   9.2  13:28.18 kresd
+3589215 root      20   0 1305888 269100 100864 S  72.7   1.7     32,44 pktviso+
+1680900 root      20   0 9045228   1.4g   1.1g R  63.6   9.0  20:04.91 kresd
+1683403 root      20   0 7396204   1.3g   1.1g R  63.6   8.1  15:32.72 kresd
+1855662 root      20   0 5682216   1.4g   1.1g R  63.6   9.1   1:52.82 kresd
+1683557 root      20   0 9044588   1.4g   1.1g R  54.5   9.3  16:04.69 kresd
+1684040 root      20   0 9046120   1.4g   1.1g R  54.5   9.0  15:48.88 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  45.5   8.5  46:09.22 kresd
+1838287 root      20   0 5987368   1.3g   1.1g R  45.5   8.7  12:31.96 kresd
+Fri Jun 20 07:28:44 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          893.30%   3.819GiB / 10GiB     38.19%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.85%     201.7MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          1.50%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.13%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.34%     93.77MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            33.98%    824.6MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          73.72%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.39%     32.56MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         28.24%    156.9MiB / 1GiB      15.32%    0B / 0B   225MB / 100GB     20
+top - 07:28:46 up 45 days, 17:39,  1 user,  load average: 14.83, 7.67, 5.87
+Tasks: 257 total,  13 running, 244 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 83.3 us, 10.6 sy,  0.0 ni,  2.3 id,  0.0 wa,  0.0 hi,  3.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   5329.7 free,   6360.6 used,   4638.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9522.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045228   1.4g   1.1g R  90.9   8.9  20:07.25 kresd
+1683072 root      20   0 7396064   1.4g   1.1g R  90.9   8.7  16:45.27 kresd
+1684040 root      20   0 9046120   1.4g   1.1g R  90.9   9.0  15:51.49 kresd
+1614390 root      20   0 9052052   1.5g   1.1g R  81.8   9.5  46:12.95 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  81.8   8.4  46:11.58 kresd
+1838287 root      20   0 5987368   1.3g   1.1g R  81.8   8.7  12:34.42 kresd
+1838340 root      20   0 5984804   1.4g   1.1g R  81.8   9.2  13:30.56 kresd
+1855136 root      20   0 5388448   1.3g   1.1g R  81.8   8.3   1:57.04 kresd
+1855662 root      20   0 5682216   1.4g   1.1g R  81.8   9.0   1:55.27 kresd
+1683403 root      20   0 7396204   1.2g   1.1g R  72.7   8.0  15:34.76 kresd
+1232221 1000      20   0 2050776 814688  11136 S  63.6   5.0  50:16.82 dnstag
+1683557 root      20   0 9045356   1.4g   1.1g R  63.6   9.3  16:07.05 kresd
+3589215 root      20   0 1305888 269100 100864 S  63.6   1.7     32,44 pktviso+
+Fri Jun 20 07:28:47 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          850.13%   3.619GiB / 10GiB     36.19%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.16%     201.7MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          4.62%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.07%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.81%     93.8MiB / 1GiB       9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            158.06%   824.7MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          61.49%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.27%     32.57MiB / 200MiB    16.28%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         21.22%    155.9MiB / 1GiB      15.23%    0B / 0B   225MB / 100GB     20
+top - 07:28:50 up 45 days, 17:39,  1 user,  load average: 14.84, 7.79, 5.91
+Tasks: 257 total,  12 running, 245 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 69.5 us, 11.7 sy,  0.0 ni, 14.8 id,  0.0 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   5580.0 free,   6106.8 used,   4642.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   9776.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9052052   1.5g   1.1g R  90.9   9.5  46:16.18 kresd
+1614462 root      20   0  128560 110804 100972 R  90.9   0.7   4:05.15 kres-ca+
+1680900 root      20   0 9045996   1.4g   1.1g R  90.9   8.9  20:10.48 kresd
+1683072 root      20   0 7396448   1.3g   1.1g R  90.9   8.6  16:48.35 kresd
+1855662 root      20   0 5682216   1.4g   1.1g R  90.9   8.8   1:58.43 kresd
+1683557 root      20   0 9045356   1.4g   1.1g R  81.8   9.3  16:10.24 kresd
+1838287 root      20   0 5986216   1.3g   1.1g R  81.8   8.7  12:37.56 kresd
+1855136 root      20   0 5388448   1.3g   1.1g R  81.8   8.2   2:00.19 kresd
+1614438 root      20   0 7871128   1.3g   1.1g R  63.6   8.2  46:13.57 kresd
+1684040 root      20   0 9045352   1.4g   1.1g R  63.6   9.0  15:54.64 kresd
+1838340 root      20   0 5983652   1.4g   1.1g R  63.6   9.0  13:33.39 kresd
+1683240 root      20   0 7855012   1.3g   1.1g S  54.5   8.6  15:40.78 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  54.5   8.0  15:37.22 kresd
+Fri Jun 20 07:28:51 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          857.33%   3.149GiB / 10GiB     31.49%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.58%     201.7MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          5.77%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.15%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            2.37%     93.82MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            33.93%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          66.39%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.10%     32.59MiB / 200MiB    16.29%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         21.21%    155.5MiB / 1GiB      15.19%    0B / 0B   225MB / 100GB     20
+top - 07:28:54 up 45 days, 17:40,  1 user,  load average: 14.61, 7.86, 5.95
+Tasks: 257 total,   7 running, 250 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 60.2 us,  8.6 sy,  0.0 ni, 26.6 id,  0.8 wa,  0.0 hi,  3.9 si,  0.0 st 
+MiB Mem :  15883.5 total,   6046.5 free,   5636.7 used,   4645.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10246.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045996   1.4g   1.1g R 100.0   8.7  20:13.99 kresd
+1614390 root      20   0 9052052   1.5g   1.1g R  90.9   9.4  46:19.76 kresd
+1684040 root      20   0 9044968   1.4g   1.1g R  90.9   9.0  15:58.15 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  81.8   8.7  12:41.05 kresd
+3589215 root      20   0 1305888 269100 100864 S  54.5   1.7     32,45 pktviso+
+1683403 root      20   0 7396204   1.2g   1.1g S  45.5   7.9  15:39.42 kresd
+1855136 root      20   0 5388448   1.3g   1.1g S  45.5   8.1   2:02.80 kresd
+1683072 root      20   0 7396448   1.3g   1.1g R  36.4   8.3  16:50.86 kresd
+1683557 root      20   0 9045356   1.4g   1.1g S  36.4   9.1  16:13.40 kresd
+1855662 root      20   0 5682216   1.3g   1.1g R  36.4   8.3   2:00.20 kresd
+1614438 root      20   0 7871128   1.3g   1.1g S  27.3   8.1  46:15.36 kresd
+1838340 root      20   0 5983652   1.3g   1.1g S  27.3   8.5  13:34.53 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:21.73 dnstag
+Fri Jun 20 07:28:55 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          471.34%   2.704GiB / 10GiB     27.04%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.79%     201.8MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.06%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.02%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.43%     93.84MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            24.51%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          37.51%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.40%     32.62MiB / 200MiB    16.31%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         18.24%    157.2MiB / 1GiB      15.35%    0B / 0B   225MB / 100GB     20
+top - 07:28:58 up 45 days, 17:40,  1 user,  load average: 14.61, 7.86, 5.95
+Tasks: 257 total,   4 running, 253 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 13.1 us,  3.3 sy,  0.0 ni, 83.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  15883.5 total,   6651.8 free,   5029.7 used,   4647.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  10853.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.4g   1.1g S  40.0   8.9  46:22.94 kresd
+1838287 root      20   0 5986600   1.3g   1.1g R  30.0   8.4  12:43.21 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  30.0   7.9   2:03.93 kresd
+1680900 root      20   0 9045996   1.3g   1.1g R  20.0   8.2  20:15.15 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  20.0   8.0  16:51.66 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  20.0   7.8  15:40.25 kresd
+1855662 root      20   0 5682024   1.3g   1.1g R  20.0   8.1   2:00.92 kresd
+3589215 root      20   0 1305888 269100 100864 S  20.0   1.7     32,45 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S  10.0   5.0  50:24.78 dnstag
+1614266 1000      20   0 6101172 273884  87788 S  10.0   1.7  67:43.49 k2man
+1614438 root      20   0 7871128   1.2g   1.1g S  10.0   8.0  46:16.14 kresd
+1683240 root      20   0 7855012   1.3g   1.1g S  10.0   8.1  15:42.40 kresd
+1683557 root      20   0 9045356   1.3g   1.1g S  10.0   8.5  16:14.12 kresd
+Fri Jun 20 07:28:59 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          217.98%   2.026GiB / 10GiB     20.26%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.77%     201.8MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.14%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.04%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            4.61%     93.84MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            11.62%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          29.01%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.29%     32.59MiB / 200MiB    16.29%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         46.84%    152.6MiB / 1GiB      14.90%    0B / 0B   225MB / 100GB     20
+top - 07:29:02 up 45 days, 17:40,  1 user,  load average: 13.76, 7.79, 5.94
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.4 us,  4.8 sy,  0.0 ni, 73.0 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7154.2 free,   4526.7 used,   4648.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11356.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+3589215 root      20   0 1305888 269100 100864 S  36.4   1.7     32,45 pktviso+
+1680900 root      20   0 9045996   1.2g   1.1g R  27.3   8.0  20:15.88 kresd
+1683072 root      20   0 7396448   1.2g   1.1g R  27.3   7.9  16:52.43 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.8   2:05.04 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:25.21 dnstag
+1614390 root      20   0 9053592   1.3g   1.1g S  18.2   8.4  46:24.12 kresd
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.9  46:16.61 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  18.2   7.7  15:40.88 kresd
+1683557 root      20   0 9045356   1.3g   1.1g S  18.2   8.3  16:14.73 kresd
+1684040 root      20   0 9044968   1.3g   1.1g S  18.2   8.3  16:01.05 kresd
+1838287 root      20   0 5986600   1.3g   1.1g S  18.2   8.1  12:43.95 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S  18.2   7.9   2:01.46 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.8  15:42.88 kresd
+Fri Jun 20 07:29:03 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          215.42%   1.755GiB / 10GiB     17.55%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.26%     201.8MiB / 1GiB      19.70%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.20%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.29MiB / 1GiB      4.62%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.30%     93.85MiB / 1GiB      9.17%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            12.36%    824.7MiB / 2GiB      40.27%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          26.07%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.07%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         56.42%    152.9MiB / 1GiB      14.94%    0B / 0B   225MB / 100GB     20
+top - 07:29:05 up 45 days, 17:40,  1 user,  load average: 13.22, 7.78, 5.94
+Tasks: 257 total,   4 running, 253 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 22.4 us,  2.4 sy,  0.0 ni, 74.4 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7406.0 free,   4274.2 used,   4648.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11609.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.3g   1.1g S  36.4   8.2  46:25.05 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:06.17 kresd
+1680900 root      20   0 9045996   1.2g   1.1g R  18.2   7.9  20:16.63 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  18.2   7.8  16:53.19 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   8.0  16:15.36 kresd
+1684040 root      20   0 9044968   1.3g   1.1g S  18.2   8.2  16:01.59 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S  18.2   7.8   2:01.95 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1232201 root      20   0 1238508  13800  10112 S   9.1   0.1   2:58.02 contain+
+1614266 1000      20   0 6101172 276444  90348 S   9.1   1.7  67:43.69 k2man
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:17.03 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.8  15:43.30 kresd
+1683403 root      20   0 7396204   1.2g   1.1g R   9.1   7.7  15:41.43 kresd
+Fri Jun 20 07:29:06 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          213.92%   1.532GiB / 10GiB     15.32%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           3.31%     201.8MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          6.47%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.24%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.06%     47.39MiB / 1GiB      4.63%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.16%     93.85MiB / 1GiB      9.16%     0B / 0B   967kB / 682MB     18
+cf190eec1dde   dnstag            9.85%     824.9MiB / 2GiB      40.28%    0B / 0B   205kB / 38.6GB    18
+510e2cc331c4   pktvisor          22.01%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.80%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         51.35%    156MiB / 1GiB        15.23%    0B / 0B   225MB / 100GB     20
+top - 07:29:09 up 45 days, 17:40,  1 user,  load average: 12.24, 7.67, 5.92
+Tasks: 257 total,   2 running, 255 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.5 us,  3.9 sy,  0.0 ni, 79.1 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7595.1 free,   4084.6 used,   4649.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11798.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 128864  72192 S 127.3   0.8 206:21.53 filebeat
+1614390 root      20   0 9053592   1.2g   1.1g S  27.3   8.0  46:25.96 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  27.3   7.8  20:17.43 kresd
+1683072 root      20   0 7396448   1.2g   1.1g R  27.3   7.8  16:54.01 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:07.32 kresd
+3589215 root      20   0 1305888 269100 100864 S  27.3   1.7     32,45 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:25.94 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.8  46:17.49 kresd
+      1 root      20   0   22960  14336   9728 S   9.1   0.1   9:59.92 systemd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:42.08 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S   9.1   7.9  16:16.02 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   8.0  16:02.09 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S   9.1   7.7  13:35.78 kresd
+Fri Jun 20 07:29:10 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          226.56%   1.46GiB / 10GiB      14.60%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           3.53%     201.8MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.12%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.61%     93.86MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            12.22%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          23.74%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.33%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.01%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         61.20%    152.9MiB / 1GiB      14.93%    0B / 0B   225MB / 100GB     20
+top - 07:29:13 up 45 days, 17:40,  1 user,  load average: 12.24, 7.67, 5.92
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 24.8 us,  4.0 sy,  0.0 ni, 70.4 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7659.0 free,   4019.6 used,   4650.2 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11863.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 128640  72192 S  27.3   0.8 206:23.69 filebeat
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:08.53 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S  27.3   7.6   2:02.90 kresd
+1614390 root      20   0 9053592   1.2g   1.1g R  18.2   7.9  46:26.90 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:18.21 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S  18.2   8.0  16:02.55 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+   1673 10001     20   0 1258088  29180  18816 S   9.1   0.2     14,27 app
+1232436 root      20   0 2665872 143948  53376 S   9.1   0.9   3:23.48 filebeat
+1614266 1000      20   0 6101172 280284  94188 S   9.1   1.7  67:43.92 k2man
+1614438 root      20   0 7871128   1.2g   1.1g R   9.1   7.8  46:18.02 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S   9.1   7.8  16:54.76 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:44.28 kresd
+Fri Jun 20 07:29:14 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          220.35%   1.43GiB / 10GiB      14.30%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.45%     201.8MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.14%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.08%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.65%     93.86MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            10.27%    824.7MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          22.33%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.38%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.01%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         47.35%    152.4MiB / 1GiB      14.88%    0B / 0B   225MB / 100GB     20
+top - 07:29:17 up 45 days, 17:40,  1 user,  load average: 11.58, 7.61, 5.90
+Tasks: 257 total,   5 running, 252 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.7 us,  3.1 sy,  0.0 ni, 81.4 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7684.0 free,   3993.5 used,   4651.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11889.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 128444  72192 S 109.1   0.8 206:25.55 filebeat
+1683072 root      20   0 7396448   1.2g   1.1g S  36.4   7.8  16:55.55 kresd
+1614390 root      20   0 9053592   1.2g   1.1g R  27.3   7.9  46:27.82 kresd
+1680900 root      20   0 9045996   1.2g   1.1g R  27.3   7.8  20:18.95 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S  27.3   7.7  12:46.48 kresd
+1855136 root      20   0 5388060   1.2g   1.1g R  27.3   7.6   2:09.74 kresd
+1683557 root      20   0 9045356   1.2g   1.1g R  18.2   7.8  16:17.26 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+     17 root      20   0       0      0      0 I   9.1   0.0  18:54.81 rcu_pre+
+1232221 1000      20   0 2050776 814688  11136 S   9.1   5.0  50:26.70 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:18.49 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:44.74 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:43.32 kresd
+Fri Jun 20 07:29:18 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          218.11%   1.4GiB / 10GiB       14.00%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.87%     201.9MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.12%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.01%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.76%     93.86MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            10.43%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          20.89%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.45%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         72.15%    157.8MiB / 1GiB      15.41%    0B / 0B   225MB / 100GB     20
+top - 07:29:21 up 45 days, 17:40,  1 user,  load average: 10.89, 7.53, 5.89
+Tasks: 257 total,   4 running, 253 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 17.5 us,  2.4 sy,  0.0 ni, 78.6 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7711.0 free,   3965.8 used,   4652.1 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11917.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 132864  72192 S  90.9   0.8 206:27.90 filebeat
+1855136 root      20   0 5388060   1.2g   1.1g S  36.4   7.6   2:10.90 kresd
+3589215 root      20   0 1305888 269100 100864 S  36.4   1.7     32,45 pktviso+
+1614390 root      20   0 9053592   1.2g   1.1g R  27.3   7.9  46:28.72 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  27.3   7.8  20:19.70 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:27.07 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.8  46:19.00 kresd
+1683072 root      20   0 7396448   1.2g   1.1g R  18.2   7.8  16:56.27 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S  18.2   7.7  15:45.24 kresd
+1683557 root      20   0 9045356   1.2g   1.1g R  18.2   7.8  16:17.86 kresd
+1614266 1000      20   0 6101172 282332  96236 S   9.1   1.7  67:44.12 k2man
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:43.99 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.8  16:03.53 kresd
+Fri Jun 20 07:29:22 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          223.32%   1.386GiB / 10GiB     13.86%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.70%     201.8MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          7.45%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.26%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.58%     93.86MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            10.68%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          22.22%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.62%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         63.08%    158.3MiB / 1GiB      15.46%    0B / 0B   225MB / 100GB     20
+top - 07:29:24 up 45 days, 17:40,  1 user,  load average: 10.26, 7.45, 5.87
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.1 us,  4.0 sy,  0.0 ni, 78.2 id,  0.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7719.8 free,   3956.1 used,   4653.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11927.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683072 root      20   0 7396448   1.2g   1.1g S  27.3   7.8  16:57.00 kresd
+1855136 root      20   0 5388060   1.2g   1.1g R  27.3   7.6   2:12.04 kresd
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.8  46:19.46 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:20.50 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:18.49 kresd
+1838287 root      20   0 5986600   1.2g   1.1g R  18.2   7.7  12:47.76 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S   9.1   7.9  46:29.57 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:45.72 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:44.61 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:03.96 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S   9.1   7.6   2:04.30 kresd
+3589215 root      20   0 1305888 269100 100864 S   9.1   1.7     32,45 pktviso+
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.92 systemd
+Fri Jun 20 07:29:25 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          207.97%   1.382GiB / 10GiB     13.82%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.25%     201.9MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.13%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.77%     93.87MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            9.66%     824.7MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          21.24%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.64%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         62.68%    158.5MiB / 1GiB      15.48%    0B / 0B   225MB / 100GB     20
+top - 07:29:28 up 45 days, 17:40,  1 user,  load average: 10.26, 7.45, 5.87
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.6 us,  3.9 sy,  0.0 ni, 69.0 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7735.8 free,   3939.5 used,   4653.5 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11944.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614380 root      20   0   45384  39536  10880 S  36.4   0.2  21:25.83 supervi+
+   1909 root      20   0 2296020 133488  72192 S  27.3   0.8 206:32.44 filebeat
+1614387 root      20   0  125132  45360  11648 S  27.3   0.3  10:44.18 python3
+1614390 root      20   0 9053592   1.2g   1.1g S  27.3   7.9  46:30.40 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:13.18 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:21.27 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  18.2   7.8  16:57.74 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  18.2   7.7  15:45.18 kresd
+1683557 root      20   0 9045356   1.2g   1.1g R  18.2   7.8  16:19.10 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:19.92 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:46.21 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:04.41 kresd
+Fri Jun 20 07:29:29 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          213.91%   1.364GiB / 10GiB     13.64%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           1.95%     201.9MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.09%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.06%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.59%     93.87MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            10.19%    824.9MiB / 2GiB      40.28%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          20.88%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.41%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         59.33%    153MiB / 1GiB        14.94%    0B / 0B   225MB / 100GB     20
+top - 07:29:32 up 45 days, 17:40,  1 user,  load average: 9.52, 7.35, 5.85
+Tasks: 257 total,   4 running, 253 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.7 us,  3.9 sy,  0.0 ni, 73.6 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7755.8 free,   3928.8 used,   4644.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11954.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 131104  72192 S  54.5   0.8 206:34.52 filebeat
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:14.35 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S  18.2   7.9  46:31.28 kresd
+1683557 root      20   0 9045356   1.2g   1.1g R  18.2   7.8  16:19.71 kresd
+1232221 1000      20   0 2050776 814688  11136 S   9.1   5.0  50:28.14 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:20.36 kresd
+1680900 root      20   0 9045996   1.2g   1.1g R   9.1   7.8  20:22.04 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S   9.1   7.8  16:58.52 kresd
+1683240 root      20   0 7855012   1.2g   1.1g R   9.1   7.7  15:46.69 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:45.81 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:04.88 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S   9.1   7.7  12:48.91 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S   9.1   7.7  13:37.69 kresd
+Fri Jun 20 07:29:33 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          223.51%   1.354GiB / 10GiB     13.54%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.71%     201.9MiB / 1GiB      19.71%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.37%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.10%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.76%     93.87MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            11.07%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.7GB    18
+510e2cc331c4   pktvisor          21.73%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          1.16%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         34.74%    157.2MiB / 1GiB      15.36%    0B / 0B   225MB / 100GB     20
+top - 07:29:36 up 45 days, 17:40,  1 user,  load average: 8.92, 7.26, 5.83
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.2 us,  3.9 sy,  0.0 ni, 80.3 id,  0.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7774.6 free,   3908.6 used,   4645.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11974.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 133192  72192 S 109.1   0.8 206:36.58 filebeat
+1855136 root      20   0 5388060   1.2g   1.1g R  45.5   7.6   2:15.50 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S  36.4   7.9  46:32.19 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  27.3   7.8  16:59.30 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S  27.3   7.7  15:47.17 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:22.87 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:20.36 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S  18.2   7.7  12:49.52 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S   9.1   5.0  50:28.50 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:20.84 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:46.42 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:05.36 kresd
+Fri Jun 20 07:29:37 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          189.01%   1.349GiB / 10GiB     13.49%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.99%     201.9MiB / 1GiB      19.72%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          9.38%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.23%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.48MiB / 1GiB      4.64%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            1.20%     93.88MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            9.42%     824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          20.69%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.43%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.04%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         53.77%    158.9MiB / 1GiB      15.52%    0B / 0B   225MB / 100GB     20
+top - 07:29:40 up 45 days, 17:40,  1 user,  load average: 8.36, 7.17, 5.81
+Tasks: 257 total,   6 running, 251 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.3 us,  2.3 sy,  0.0 ni, 79.8 id,  0.8 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7753.4 free,   3929.0 used,   4646.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11954.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1909 root      20   0 2296020 133704  72192 S 136.4   0.8 206:38.60 filebeat
+1855136 root      20   0 5388060   1.2g   1.1g S  36.4   7.6   2:16.61 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S  27.3   7.9  46:33.08 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  27.3   7.8  20:23.64 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:28.85 dnstag
+1683072 root      20   0 7396448   1.2g   1.1g R  18.2   7.8  17:00.05 kresd
+1683403 root      20   0 7396204   1.2g   1.1g R  18.2   7.7  15:47.09 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S  18.2   7.7  12:50.11 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1614438 root      20   0 7871128   1.2g   1.1g R   9.1   7.8  46:21.37 kresd
+1683240 root      20   0 7855012   1.2g   1.1g R   9.1   7.7  15:47.61 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S   9.1   7.8  16:20.95 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:05.84 kresd
+Fri Jun 20 07:29:41 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          220.68%   1.334GiB / 10GiB     13.34%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           3.76%     201.9MiB / 1GiB      19.72%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.15%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.45%     93.88MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            9.79%     824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          19.95%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.28%     32.61MiB / 200MiB    16.30%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         45.83%    154.3MiB / 1GiB      15.07%    0B / 0B   225MB / 100GB     20
+top - 07:29:43 up 45 days, 17:40,  1 user,  load average: 7.93, 7.10, 5.79
+Tasks: 257 total,   3 running, 254 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.7 us,  2.4 sy,  0.0 ni, 80.2 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7777.3 free,   3904.3 used,   4647.3 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11979.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045996   1.2g   1.1g R  30.0   7.8  20:24.36 kresd
+1683557 root      20   0 9045356   1.2g   1.1g R  30.0   7.8  16:21.59 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  30.0   7.6   2:17.78 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S  20.0   7.9  46:33.99 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  20.0   7.7  15:47.72 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S  20.0   7.7  12:50.71 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S  20.0   7.6  13:38.65 kresd
+1232201 root      20   0 1238508  14308  10112 S  10.0   0.1   2:58.55 contain+
+1614266 1000      20   0 6101172 291548 105452 S  10.0   1.8  67:44.70 k2man
+1614438 root      20   0 7871128   1.2g   1.1g S  10.0   7.8  46:21.83 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  10.0   7.8  17:00.81 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S  10.0   7.7  15:48.08 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S  10.0   7.7  16:06.28 kresd
+Fri Jun 20 07:29:44 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          201.11%   1.324GiB / 10GiB     13.24%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           3.45%     201.9MiB / 1GiB      19.72%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.11%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.06%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.40%     93.88MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            11.19%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          20.30%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.42%     32.66MiB / 200MiB    16.33%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         55.20%    154.2MiB / 1GiB      15.06%    0B / 0B   225MB / 100GB     20
+top - 07:29:47 up 45 days, 17:40,  1 user,  load average: 7.93, 7.10, 5.79
+Tasks: 257 total,   2 running, 255 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 21.9 us,  6.2 sy,  0.0 ni, 71.1 id,  0.0 wa,  0.0 hi,  0.8 si,  0.0 st 
+MiB Mem :  15883.5 total,   7796.6 free,   3884.8 used,   4647.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  11998.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1614390 root      20   0 9053592   1.2g   1.1g S  27.3   7.9  46:34.78 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:18.80 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:25.06 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S  18.2   7.8  17:01.53 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:22.14 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S  18.2   7.7  12:51.25 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S  18.2   7.6  13:38.95 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1232221 1000      20   0 2050776 814688  11136 S   9.1   5.0  50:31.35 dnstag
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:48.55 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:48.31 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S   9.1   7.6   2:07.04 kresd
+1860585 root      20   0   13800   6272   4096 R   9.1   0.0   0:00.01 top
+Fri Jun 20 07:29:48 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          197.24%   1.314GiB / 10GiB     13.14%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           3.35%     202MiB / 1GiB        19.73%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          22.27%    111.5MiB / 256MiB    43.57%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.6MiB / 256MiB     10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.11%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.60%     93.88MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            8.68%     824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          19.36%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.41%     32.67MiB / 200MiB    16.34%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         43.68%    156MiB / 1GiB        15.23%    0B / 0B   225MB / 100GB     20
+top - 07:29:51 up 45 days, 17:40,  1 user,  load average: 7.46, 7.02, 5.77
+Tasks: 257 total,   1 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 14.2 us,  3.1 sy,  0.0 ni, 81.1 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7799.5 free,   3880.9 used,   4648.4 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12002.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1683072 root      20   0 7396448   1.2g   1.1g S  36.4   7.8  17:02.25 kresd
+1680900 root      20   0 9045996   1.2g   1.1g S  27.3   7.8  20:25.77 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.6   2:19.90 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:31.69 dnstag
+1614390 root      20   0 9053592   1.2g   1.1g S  18.2   7.9  46:35.63 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S  18.2   7.7  15:48.97 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:22.70 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S  18.2   7.7  16:07.19 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1614266 1000      20   0 6101172 293596 107372 S   9.1   1.8  67:44.92 k2man
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:22.70 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:48.84 kresd
+1838287 root      20   0 5986600   1.2g   1.1g S   9.1   7.7  12:51.78 kresd
+Fri Jun 20 07:29:52 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          225.13%   1.303GiB / 10GiB     13.03%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.65%     202MiB / 1GiB        19.73%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          9.02%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.27%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.03%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.80%     93.89MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            10.50%    824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          20.81%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.40%     32.68MiB / 200MiB    16.34%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         41.41%    154MiB / 1GiB        15.04%    0B / 0B   225MB / 100GB     20
+top - 07:29:54 up 45 days, 17:41,  1 user,  load average: 6.86, 6.90, 5.74
+Tasks: 257 total,   5 running, 252 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 16.9 us,  4.8 sy,  0.0 ni, 76.6 id,  0.0 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7813.0 free,   3867.1 used,   4648.9 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12016.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1680900 root      20   0 9045996   1.2g   1.1g S  18.2   7.8  20:26.37 kresd
+1683403 root      20   0 7396204   1.2g   1.1g R  18.2   7.7  15:49.29 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  18.2   7.6   2:20.80 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1614390 root      20   0 9053592   1.2g   1.1g R   9.1   7.9  46:36.34 kresd
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:23.06 kresd
+1683240 root      20   0 7855012   1.2g   1.1g R   9.1   7.7  15:49.38 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S   9.1   7.8  16:23.17 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:07.58 kresd
+1838287 root      20   0 5985828   1.2g   1.1g S   9.1   7.7  12:52.33 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S   9.1   7.6  13:39.48 kresd
+1855662 root      20   0 5682280   1.2g   1.1g R   9.1   7.6   2:07.85 kresd
+      1 root      20   0   22960  14336   9728 S   0.0   0.1   9:59.92 systemd
+Fri Jun 20 07:29:55 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          204.77%   1.291GiB / 10GiB     12.91%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.46%     202MiB / 1GiB        19.73%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.18%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.00%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.67%     93.89MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            9.90%     824.8MiB / 2GiB      40.27%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          21.72%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.77%     32.67MiB / 200MiB    16.34%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         0.00%     10.48MiB / 1GiB      1.02%     0B / 0B   41.1GB / 52.4GB   7
+bb675cd91464   logstream         44.26%    156.9MiB / 1GiB      15.32%    0B / 0B   225MB / 100GB     20
+top - 07:29:58 up 45 days, 17:41,  1 user,  load average: 6.86, 6.90, 5.74
+Tasks: 257 total,   2 running, 255 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.0 us,  3.9 sy,  0.0 ni, 68.8 id,  0.8 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   7824.1 free,   3855.7 used,   4649.0 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12027.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1855136 root      20   0 5388060   1.2g   1.1g S  36.4   7.7   2:21.98 kresd
+1614390 root      20   0 9053592   1.2g   1.1g S  27.3   7.9  46:37.29 kresd
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:32.36 dnstag
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.8  46:23.55 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:23.75 kresd
+1855662 root      20   0 5682280   1.2g   1.1g S  18.2   7.6   2:08.34 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+      1 root      20   0   22960  14336   9728 S   9.1   0.1   9:59.93 systemd
+1680900 root      20   0 9045996   1.2g   1.1g S   9.1   7.8  20:27.12 kresd
+1683072 root      20   0 7396448   1.2g   1.1g R   9.1   7.8  17:03.59 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S   9.1   7.7  15:49.90 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:49.88 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:08.05 kresd
+Fri Jun 20 07:29:59 UTC 2025
+CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT    MEM %     NET I/O   BLOCK I/O         PIDS
+64848ec6f7b5   resolver          184.96%   1.276GiB / 10GiB     12.76%    0B / 0B   30.2GB / 2.02GB   41
+c0b3c6feb2ba   kresman           2.32%     202MiB / 1GiB        19.73%    0B / 0B   254GB / 866GB     19
+6ff89b66ae4a   lr-agent          0.16%     111.5MiB / 256MiB    43.55%    0B / 0B   92.9MB / 1.37GB   2
+843c60c0fff7   s3-sync           0.00%     11.61MiB / 100MiB    11.61%    0B / 0B   52.3MB / 0B       2
+cd3623b8a7c4   anycast-manager   0.00%     26.61MiB / 256MiB    10.39%    0B / 0B   1.36MB / 68.2MB   1
+4aa04562a9c3   frr               0.09%     27.67MiB / 256MiB    10.81%    0B / 0B   3.53MB / 1.35MB   18
+8c31cee609be   logcat-content    0.00%     47.91MiB / 1GiB      4.68%     0B / 0B   590kB / 81.9MB    18
+927a978fb19c   logcat            0.28%     93.89MiB / 1GiB      9.17%     0B / 0B   967kB / 686MB     18
+cf190eec1dde   dnstag            8.66%     824.8MiB / 2GiB      40.28%    0B / 0B   205kB / 38.8GB    18
+510e2cc331c4   pktvisor          17.10%    220.6MiB / 1000MiB   22.06%    0B / 0B   1.21MB / 1.92GB   22
+212d7ac12d9e   consumer          0.38%     32.67MiB / 200MiB    16.34%    0B / 0B   44MB / 36.9kB     23
+3ea49eea4d3d   logrotate         60.19%    20.27MiB / 1GiB      1.98%     0B / 0B   41.5GB / 53GB     9
+bb675cd91464   logstream         43.69%    157.6MiB / 1GiB      15.39%    0B / 0B   225MB / 100GB     20
+top - 07:30:02 up 45 days, 17:41,  1 user,  load average: 6.71, 6.87, 5.73
+Tasks: 261 total,   5 running, 256 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 25.2 us, 11.5 sy,  0.0 ni, 55.7 id,  6.1 wa,  0.0 hi,  1.5 si,  0.0 st 
+MiB Mem :  15883.5 total,   7065.1 free,   3851.3 used,   5412.6 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12032.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1860802 1000      20   0     892    512    512 R  81.8   0.0   0:01.26 logrota+
+   1909 root      20   0 2296020 131148  72192 S  45.5   0.8 206:48.97 filebeat
+1680900 root      20   0 9045996   1.2g   1.1g S  27.3   7.8  20:27.77 kresd
+1683072 root      20   0 7396448   1.2g   1.1g R  27.3   7.8  17:04.29 kresd
+1855136 root      20   0 5388060   1.2g   1.1g S  27.3   7.7   2:23.09 kresd
+1858739 root      20   0       0      0      0 D  27.3   0.0   0:00.81 kworker+
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:32.69 dnstag
+1614390 root      20   0 9053592   1.2g   1.1g S  18.2   7.9  46:38.11 kresd
+1614438 root      20   0 7871128   1.2g   1.1g S  18.2   7.8  46:23.97 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S  18.2   7.7  15:50.46 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S  18.2   7.8  16:24.33 kresd
+1838287 root      20   0 5985828   1.2g   1.1g R  18.2   7.7  12:53.51 kresd
+1838340 root      20   0 5983652   1.2g   1.1g S  18.2   7.6  13:40.10 kresd
+Fri Jun 20 07:30:03 UTC 2025
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT   MEM %     NET I/O   BLOCK I/O         PIDS
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+4aa04562a9c3   frr       0.00%     27.67MiB / 256MiB   10.81%    0B / 0B   3.53MB / 1.35MB   18
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+               --        --        -- / --             --        --        --                --
+top - 07:30:05 up 45 days, 17:41,  1 user,  load average: 6.49, 6.82, 5.72
+Tasks: 262 total,   4 running, 258 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 18.6 us,  3.1 sy,  0.0 ni, 76.0 id,  0.8 wa,  0.0 hi,  1.6 si,  0.0 st 
+MiB Mem :  15883.5 total,   8144.8 free,   3857.4 used,   4326.7 buff/cache     
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.  12026.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+1860844 1000      20   0    1624    896    384 R 100.0   0.0   0:00.78 gzip
+1232221 1000      20   0 2050776 814688  11136 S  18.2   5.0  50:32.98 dnstag
+1614390 root      20   0 9053592   1.2g   1.1g S  18.2   7.9  46:38.77 kresd
+1683240 root      20   0 7855012   1.2g   1.1g S  18.2   7.7  15:50.71 kresd
+1855136 root      20   0 5388060   1.2g   1.1g R  18.2   7.7   2:23.95 kresd
+3589215 root      20   0 1305888 269100 100864 S  18.2   1.7     32,45 pktviso+
+1614266 1000      20   0 6101172 298972 112748 S   9.1   1.8  67:45.31 k2man
+1614438 root      20   0 7871128   1.2g   1.1g S   9.1   7.8  46:24.29 kresd
+1680900 root      20   0 9045996   1.2g   1.1g R   9.1   7.8  20:28.29 kresd
+1683072 root      20   0 7396448   1.2g   1.1g S   9.1   7.8  17:04.86 kresd
+1683403 root      20   0 7396204   1.2g   1.1g S   9.1   7.7  15:50.89 kresd
+1683557 root      20   0 9045356   1.2g   1.1g S   9.1   7.8  16:24.76 kresd
+1684040 root      20   0 9044968   1.2g   1.1g S   9.1   7.7  16:08.84 kresd

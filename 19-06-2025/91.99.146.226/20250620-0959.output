@@ -1,0 +1,94 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-0959.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1300 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 1622
+Warning: received a response with an unexpected id: 1973
+Warning: received a response with an unexpected id: 1984
+Warning: received a response with an unexpected id: 1977
+Warning: received a response with an unexpected id: 4054
+Warning: received a response with an unexpected id: 4322
+Warning: received a response with an unexpected id: 4350
+Warning: received a response with an unexpected id: 4342
+Warning: received a response with an unexpected id: 4315
+Warning: received a response with an unexpected id: 4325
+Warning: received a response with an unexpected id: 4358
+Warning: received a response with an unexpected id: 4326
+Warning: received a response with an unexpected id: 4317
+Warning: received a response with an unexpected id: 4346
+Warning: received a response with an unexpected id: 4639
+Warning: received a response with an unexpected id: 4726
+Warning: received a response with an unexpected id: 4733
+Warning: received a response with an unexpected id: 4735
+Warning: received a response with an unexpected id: 4746
+Warning: received a response with an unexpected id: 4730
+Warning: received a response with an unexpected id: 4726
+Warning: received a response with an unexpected id: 4747
+Warning: received a response with an unexpected id: 4754
+Warning: received a response with an unexpected id: 4761
+Warning: received a response with an unexpected id: 4745
+Warning: received a response with an unexpected id: 4751
+Warning: received a response with an unexpected id: 4763
+Warning: received a response with an unexpected id: 4754
+Warning: received a response with an unexpected id: 4725
+Warning: received a response with an unexpected id: 5035
+Warning: received a response with an unexpected id: 5585
+Warning: received a response with an unexpected id: 5594
+Warning: received a response with an unexpected id: 5574
+Warning: received a response with an unexpected id: 5589
+Warning: received a response with an unexpected id: 5590
+Warning: received a response with an unexpected id: 5609
+Warning: received a response with an unexpected id: 5568
+Warning: received a response with an unexpected id: 5575
+Warning: received a response with an unexpected id: 5604
+Warning: received a response with an unexpected id: 5573
+Warning: received a response with an unexpected id: 5612
+Warning: received a response with an unexpected id: 5623
+Warning: received a response with an unexpected id: 5615
+Warning: received a response with an unexpected id: 5618
+Warning: received a response with an unexpected id: 5566
+Warning: received a response with an unexpected id: 5584
+Warning: received a response with an unexpected id: 5578
+Warning: received a response with an unexpected id: 5588
+Warning: received a response with an unexpected id: 5586
+Warning: received a response with an unexpected id: 5597
+Warning: received a response with an unexpected id: 5646
+Warning: received a response with an unexpected id: 5580
+Warning: received a response with an unexpected id: 5653
+Warning: received a response with an unexpected id: 5595
+Warning: received a response with an unexpected id: 5616
+Warning: received a response with an unexpected id: 5644
+Warning: received a response with an unexpected id: 5571
+Warning: received a response with an unexpected id: 5600
+Warning: received a response with an unexpected id: 5608
+Warning: received a response with an unexpected id: 5635
+Warning: received a response with an unexpected id: 5601
+Warning: received a response with an unexpected id: 6366
+Warning: received a response with an unexpected id: 7951
+Warning: received a response with an unexpected id: 8846
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         786499
+  Queries completed:    784236
+  Queries lost:         2263
+  Response codes:       NOERROR 496391 (63.30%), SERVFAIL 57437 (7.32%), NXDOMAIN 230408 (29.38%)
+
+  Run time (s):         622.549727
+  Maximum throughput:   9902.000000 qps
+  Lost at that point:   0.06%
+
+  Connection attempts:  76 (76 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 784300
+

@@ -26,6 +26,8 @@ date; ansible-playbook -u root -i test_nodes.yaml run_resperf.yaml
 
 for i in $(echo "195.201.99.145 91.99.11.18 157.180.84.214 5.161.245.1 135.181.32.208 37.27.41.98 91.99.164.79 91.99.107.122 91.99.145.134 91.99.146.226"); do rsync -a root@$i:/root/resperf_ansible/202506* 19-06-2025/$i/.; done; rsync -a dns4eu-athens:/tmp/dns4eu-ath-01_stats* ./19-06-2025/.
 
+20062025
+for i in $(echo "195.201.99.145 91.99.11.18 157.180.84.214 5.161.245.1 135.181.32.208 37.27.41.98 91.99.164.79 91.99.107.122 91.99.145.134 91.99.146.226"); do rsync -a root@$i:/root/resperf_ansible/20250620-12* 20-06-2025/$i/.; done; rsync -a dns4eu-athens:/tmp/dns4eu-ath-01_stats_2025-06-20_12* ./20-06-2025/.
 
 Stats on resolver:
 output=/tmp/$(hostname)_stats_$(date '+%Y-%m-%d_%H-%M-%S').txt &&  while :; do date >> $output; docker stats --no-stream >> $output; top -b -n 1 | head -n 20 >> $output; tail -n 30 $output | grep load;  sleep 1; done

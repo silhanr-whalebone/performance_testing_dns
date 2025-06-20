@@ -1,0 +1,55 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1144.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0 -i 2
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 9665
+Warning: received a response with an unexpected id: 9673
+Warning: received a response with an unexpected id: 9679
+Warning: received a response with an unexpected id: 9668
+Warning: received a response with an unexpected id: 9670
+Warning: received a response with an unexpected id: 9890
+Warning: received a response with an unexpected id: 9900
+Warning: received a response with an unexpected id: 9912
+Warning: received a response with an unexpected id: 9906
+Warning: received a response with an unexpected id: 9915
+Warning: received a response with an unexpected id: 9910
+Warning: received a response with an unexpected id: 9903
+Warning: received a response with an unexpected id: 9902
+Warning: received a response with an unexpected id: 9907
+Warning: received a response with an unexpected id: 9887
+Warning: received a response with an unexpected id: 9918
+Warning: received a response with an unexpected id: 9911
+Warning: received a response with an unexpected id: 9892
+Warning: received a response with an unexpected id: 9917
+Warning: received a response with an unexpected id: 9896
+Warning: received a response with an unexpected id: 9916
+Warning: received a response with an unexpected id: 9901
+Warning: received a response with an unexpected id: 10044
+Warning: received a response with an unexpected id: 10041
+Warning: received a response with an unexpected id: 10050
+Warning: received a response with an unexpected id: 10051
+Warning: received a response with an unexpected id: 10062
+Warning: received a response with an unexpected id: 10065
+Warning: received a response with an unexpected id: 10066
+Warning: received a response with an unexpected id: 10067
+Warning: received a response with an unexpected id: 10071
+Warning: received a response with an unexpected id: 10036
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: received a response with an unexpected id: 10200
+Warning: received a response with an unexpected id: 10203
+Warning: received a response with an unexpected id: 10201
+Warning: received a response with an unexpected id: 10217
+Warning: received a response with an unexpected id: 10206
+Warning: received a response with an unexpected id: 10207
+Warning: received a response with an unexpected id: 10239
+Warning: received a response with an unexpected id: 10211
+Warning: received a response with an unexpected id: 10208
+Warning: received a response with an unexpected id: 10252
+Warning: received a response with an unexpected id: 10219
+Warning: received a response with an unexpected id: 10244
+Error: failed to receive packet: Bad file descriptor

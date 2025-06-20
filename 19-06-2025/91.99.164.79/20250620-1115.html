@@ -1,0 +1,149 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1115</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1115.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 1794
+Warning: received a response with an unexpected id: 1797
+Warning: received a response with an unexpected id: 1793
+Warning: received a response with an unexpected id: 1798
+Warning: received a response with an unexpected id: 1800
+Warning: received a response with an unexpected id: 1822
+Warning: received a response with an unexpected id: 1818
+Warning: received a response with an unexpected id: 1796
+Warning: received a response with an unexpected id: 1817
+Warning: received a response with an unexpected id: 1816
+Warning: received a response with an unexpected id: 1819
+Warning: received a response with an unexpected id: 1801
+Warning: received a response with an unexpected id: 2081
+Warning: received a response with an unexpected id: 2123
+Warning: received a response with an unexpected id: 2080
+Warning: received a response with an unexpected id: 2082
+Warning: received a response with an unexpected id: 2107
+Warning: received a response with an unexpected id: 2083
+Warning: received a response with an unexpected id: 2126
+Warning: received a response with an unexpected id: 2130
+Warning: received a response with an unexpected id: 2086
+Warning: received a response with an unexpected id: 2127
+Warning: received a response with an unexpected id: 2129
+Warning: received a response with an unexpected id: 2500
+Warning: received a response with an unexpected id: 2491
+Warning: received a response with an unexpected id: 2679
+Warning: received a response with an unexpected id: 2660
+Warning: received a response with an unexpected id: 2673
+Warning: received a response with an unexpected id: 2696
+Warning: received a response with an unexpected id: 2681
+Warning: received a response with an unexpected id: 2688
+Warning: received a response with an unexpected id: 2699
+Warning: received a response with an unexpected id: 2680
+Warning: received a response with an unexpected id: 2699
+Warning: received a response with an unexpected id: 2702
+Warning: received a response with an unexpected id: 2687
+Warning: received a response with an unexpected id: 2698
+Warning: received a response with an unexpected id: 2703
+Warning: received a response with an unexpected id: 2683
+Warning: received a response with an unexpected id: 2684
+Warning: received a response with an unexpected id: 2668
+Warning: received a response with an unexpected id: 2675
+Warning: received a response with an unexpected id: 2709
+Warning: received a response with an unexpected id: 2700
+Warning: received a response with an unexpected id: 2654
+Warning: received a response with an unexpected id: 2670
+Warning: received a response with an unexpected id: 2662
+Warning: received a response with an unexpected id: 2657
+Warning: received a response with an unexpected id: 2713
+Warning: received a response with an unexpected id: 2688
+Warning: received a response with an unexpected id: 2691
+Warning: received a response with an unexpected id: 2678
+Warning: received a response with an unexpected id: 2694
+Warning: received a response with an unexpected id: 2690
+Warning: received a response with an unexpected id: 2697
+Warning: received a response with an unexpected id: 2701
+Warning: received a response with an unexpected id: 2714
+Warning: received a response with an unexpected id: 2678
+Warning: received a response with an unexpected id: 2927
+Warning: received a response with an unexpected id: 2928
+Warning: received a response with an unexpected id: 2929
+Warning: received a response with an unexpected id: 2939
+Warning: received a response with an unexpected id: 2920
+Warning: received a response with an unexpected id: 3132
+Warning: received a response with an unexpected id: 4148
+Warning: received a response with an unexpected id: 4195
+Warning: received a response with an unexpected id: 4596
+Warning: received a response with an unexpected id: 4588
+Warning: received a response with an unexpected id: 4574
+Warning: received a response with an unexpected id: 4580
+Warning: received a response with an unexpected id: 4589
+Warning: received a response with an unexpected id: 4592
+Warning: received a response with an unexpected id: 7202
+Warning: received a response with an unexpected id: 7212
+Warning: received a response with an unexpected id: 7218
+Warning: received a response with an unexpected id: 7211
+Warning: received a response with an unexpected id: 7219
+Warning: received a response with an unexpected id: 7201
+Warning: received a response with an unexpected id: 7225
+Warning: received a response with an unexpected id: 7243
+Warning: received a response with an unexpected id: 7244
+Warning: received a response with an unexpected id: 7249
+Warning: received a response with an unexpected id: 7233
+Warning: received a response with an unexpected id: 7207
+Warning: received a response with an unexpected id: 7236
+Warning: received a response with an unexpected id: 7203
+Warning: received a response with an unexpected id: 7245
+Warning: received a response with an unexpected id: 7209
+Warning: received a response with an unexpected id: 7232
+Warning: received a response with an unexpected id: 8139
+Warning: received a response with an unexpected id: 8421
+Warning: received a response with an unexpected id: 8420
+Warning: received a response with an unexpected id: 8416
+Warning: received a response with an unexpected id: 8435
+Warning: received a response with an unexpected id: 8462
+Warning: received a response with an unexpected id: 8463
+Warning: received a response with an unexpected id: 8649
+Warning: received a response with an unexpected id: 8645
+Warning: received a response with an unexpected id: 8645
+Warning: received a response with an unexpected id: 8605
+Warning: received a response with an unexpected id: 8624
+Warning: received a response with an unexpected id: 8688
+Warning: received a response with an unexpected id: 8727
+Warning: received a response with an unexpected id: 8707
+Warning: received a response with an unexpected id: 8717
+Warning: received a response with an unexpected id: 8685
+Warning: received a response with an unexpected id: 8692
+Warning: received a response with an unexpected id: 8664
+Warning: received a response with an unexpected id: 8828
+Warning: received a response with an unexpected id: 8769
+Warning: received a response with an unexpected id: 9250
+Warning: received a response with an unexpected id: 9241
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         756249
+  Queries completed:    753811
+  Queries lost:         2438
+  Response codes:       NOERROR 473633 (62.83%), SERVFAIL 60504 (8.03%), NXDOMAIN 219674 (29.14%)
+
+  Run time (s):         622.784093
+  Maximum throughput:   16200.000000 qps
+  Lost at that point:   1.11%
+
+  Connection attempts:  72 (72 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 753923
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1115.rate.png" />
+<img src="20250620-1115.latency.png" />
+</p>
+</body></html>

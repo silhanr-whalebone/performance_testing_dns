@@ -1,0 +1,33 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1246</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1246.gnuplot -M dot -s 79.127.218.224 -d domains_shuffled.list -C 500 -m 12000 -b 1400 -q 1000000 -R -r 10 -c 180 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         2219999
+  Queries completed:    2219999
+  Queries lost:         0
+  Response codes:       NOERROR 1490384 (67.13%), SERVFAIL 55121 (2.48%), NXDOMAIN 674494 (30.38%)
+
+  Run time (s):         203.858359
+  Maximum throughput:   12000.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  650 (645 successful, 99.23%)
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1246.rate.png" />
+<img src="20250620-1246.latency.png" />
+</p>
+</body></html>

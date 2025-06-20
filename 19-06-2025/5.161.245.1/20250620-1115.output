@@ -1,0 +1,63 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1115.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 1785
+Warning: received a response with an unexpected id: 1794
+Warning: received a response with an unexpected id: 1799
+Warning: received a response with an unexpected id: 1783
+Warning: received a response with an unexpected id: 1805
+Warning: received a response with an unexpected id: 1791
+Warning: received a response with an unexpected id: 1814
+Warning: received a response with an unexpected id: 1804
+Warning: received a response with an unexpected id: 1786
+Warning: received a response with an unexpected id: 1806
+Warning: received a response with an unexpected id: 1819
+Warning: received a response with an unexpected id: 1796
+Warning: received a response with an unexpected id: 1824
+Warning: received a response with an unexpected id: 1808
+Warning: received a response with an unexpected id: 1835
+Warning: received a response with an unexpected id: 1817
+Warning: received a response with an unexpected id: 1820
+Warning: received a response with an unexpected id: 2240
+Warning: received a response with an unexpected id: 2231
+Warning: received a response with an unexpected id: 2248
+Warning: received a response with an unexpected id: 2257
+Warning: received a response with an unexpected id: 2503
+Warning: received a response with an unexpected id: 2697
+Warning: received a response with an unexpected id: 2695
+Warning: received a response with an unexpected id: 2706
+Warning: received a response with an unexpected id: 2711
+Warning: received a response with an unexpected id: 2694
+Warning: received a response with an unexpected id: 2709
+Warning: received a response with an unexpected id: 2700
+Warning: received a response with an unexpected id: 2943
+Warning: received a response with an unexpected id: 7089
+Warning: received a response with an unexpected id: 7086
+Warning: received a response with an unexpected id: 7094
+Warning: received a response with an unexpected id: 8109
+Warning: received a response with an unexpected id: 8117
+Warning: received a response with an unexpected id: 8100
+Warning: received a response with an unexpected id: 8115
+Warning: received a response with an unexpected id: 8118
+Warning: received a response with an unexpected id: 8121
+Warning: received a response with an unexpected id: 8105
+Warning: received a response with an unexpected id: 8137
+Warning: received a response with an unexpected id: 8097
+Warning: received a response with an unexpected id: 8123
+Warning: received a response with an unexpected id: 8150
+Warning: received a response with an unexpected id: 8107
+Warning: received a response with an unexpected id: 8101
+Warning: received a response with an unexpected id: 8125
+Warning: received a response with an unexpected id: 8154
+Warning: received a response with an unexpected id: 8153
+Warning: received a response with an unexpected id: 8143
+Warning: received a response with an unexpected id: 8120
+Warning: received a response with an unexpected id: 8117
+Warning: received a response with an unexpected id: 8152
+Warning: received a response with an unexpected id: 8100
+Warning: received a response with an unexpected id: 8242
+Warning: received a response with an unexpected id: 8479
+Error: failed to receive packet: Bad file descriptor

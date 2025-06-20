@@ -1,0 +1,72 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1144</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1144.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0 -i 2
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 9685
+Warning: received a response with an unexpected id: 9691
+Warning: received a response with an unexpected id: 9686
+Warning: received a response with an unexpected id: 9682
+Warning: received a response with an unexpected id: 9685
+Warning: received a response with an unexpected id: 9687
+Warning: received a response with an unexpected id: 9688
+Warning: received a response with an unexpected id: 9671
+Warning: received a response with an unexpected id: 9683
+Warning: received a response with an unexpected id: 9689
+Warning: received a response with an unexpected id: 9670
+Warning: received a response with an unexpected id: 9675
+Warning: received a response with an unexpected id: 9669
+Warning: received a response with an unexpected id: 9668
+Warning: received a response with an unexpected id: 9706
+Warning: received a response with an unexpected id: 9692
+Warning: received a response with an unexpected id: 9691
+Warning: received a response with an unexpected id: 9677
+Warning: received a response with an unexpected id: 10065
+Warning: received a response with an unexpected id: 10058
+Warning: received a response with an unexpected id: 10057
+Warning: received a response with an unexpected id: 10067
+Warning: received a response with an unexpected id: 10073
+Warning: received a response with an unexpected id: 10056
+Warning: received a response with an unexpected id: 10066
+Warning: received a response with an unexpected id: 10077
+Warning: received a response with an unexpected id: 10064
+Warning: received a response with an unexpected id: 10068
+Warning: received a response with an unexpected id: 10050
+Warning: received a response with an unexpected id: 10058
+Warning: received a response with an unexpected id: 10067
+Warning: received a response with an unexpected id: 10081
+Warning: received a response with an unexpected id: 10052
+Warning: received a response with an unexpected id: 10079
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         756249
+  Queries completed:    754376
+  Queries lost:         1873
+  Response codes:       NOERROR 500390 (66.33%), SERVFAIL 26196 (3.47%), NXDOMAIN 227790 (30.20%)
+
+  Run time (s):         624.056199
+  Maximum throughput:   1613.500000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  85 (85 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 754410
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1144.rate.png" />
+<img src="20250620-1144.latency.png" />
+</p>
+</body></html>

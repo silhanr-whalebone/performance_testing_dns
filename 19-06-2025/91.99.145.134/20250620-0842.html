@@ -1,0 +1,40 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-0842</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-0842.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1300 -b 1400 -q 500000 -R -r 10 -c 300 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 3427
+Warning: received a response with an unexpected id: 3786
+Warning: received a response with an unexpected id: 6479
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         396499
+  Queries completed:    396496
+  Queries lost:         3
+  Response codes:       NOERROR 254762 (64.25%), SERVFAIL 24477 (6.17%), NXDOMAIN 117257 (29.57%)
+
+  Run time (s):         326.594914
+  Maximum throughput:   1300.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  66 (66 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 396499
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-0842.rate.png" />
+<img src="20250620-0842.latency.png" />
+</p>
+</body></html>

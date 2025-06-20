@@ -1,0 +1,38 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1045</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1045.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1300 -b 1400 -q 1000000 -R -r 10 -c 300 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         396499
+  Queries completed:    396102
+  Queries lost:         397
+  Response codes:       NOERROR 248590 (62.76%), SERVFAIL 31613 (7.98%), NXDOMAIN 115899 (29.26%)
+
+  Run time (s):         328.710814
+  Maximum throughput:   5934.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  72 (71 successful, 98.61%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 396102
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1045.rate.png" />
+<img src="20250620-1045.latency.png" />
+</p>
+</body></html>

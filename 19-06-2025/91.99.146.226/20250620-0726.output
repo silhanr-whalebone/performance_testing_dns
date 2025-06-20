@@ -1,0 +1,23 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-0726.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1400 -b 1400 -q 500000 -R -r 10 -c 300 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 2085
+Warning: received a response with an unexpected id: 2097
+Warning: received a response with an unexpected id: 2095
+Warning: received a response with an unexpected id: 2101
+Warning: received a response with an unexpected id: 2117
+Warning: received a response with an unexpected id: 2104
+Warning: received a response with an unexpected id: 2113
+Warning: received a response with an unexpected id: 2107
+Warning: received a response with an unexpected id: 2122
+Warning: received a response with an unexpected id: 2119
+Warning: received a response with an unexpected id: 2102
+Warning: received a response with an unexpected id: 2134
+Warning: received a response with an unexpected id: 2149
+Warning: received a response with an unexpected id: 2111
+Warning: received a response with an unexpected id: 2145
+Warning: received a response with an unexpected id: 2139
+Error: failed to receive packet: Bad file descriptor

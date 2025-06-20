@@ -3,12 +3,16 @@
   hosts: all
   become: yes
   vars:
-    qps: 1200
-    duration: 600
-    clients: 50
+    qps: 1300
+    duration: 180
+    clients: 500
   
   tasks:
 
-    - name: "Start resperf"
-      ansible.builtin.shell: cd /root/resperf_ansible/; nohup resperf-report -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C {{ clients }} -m {{ qps }} -b 1400 -q 1000000 -R -r 10 -c {{ duration }} -t 30 -F 0 > output.txt 2>&1 &
+
+    # - name: "Start resperf DoH"
+    #   ansible.builtin.shell: cd /root/resperf_ansible/; nohup resperf-report -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C {{ clients }} -m {{ qps }} -b 1400 -q 1000000 -R -r 10 -c {{ duration }} -t 30 -F 0 > output.txt 2>&1 &
+
+    - name: "Start resperf DoT"
+      ansible.builtin.shell: cd /root/resperf_ansible/; nohup resperf-report -M dot -s 79.127.218.224 -d domains_shuffled.list -C {{ clients }} -m {{ qps }} -b 1400 -q 500000 -R -r 10 -c {{ duration }} -t 30 -F 0 -i 1 > output.txt 2>&1 &
 

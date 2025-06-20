@@ -1,0 +1,94 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250619-1210.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d ../domains_shuffled.list -C 500 -m 14000 -b 1400 -q 500000 -R -r 10 -c 180 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 778
+Warning: received a response with an unexpected id: 784
+Warning: received a response with an unexpected id: 790
+Warning: received a response with an unexpected id: 797
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: received a response with an unexpected id: 977
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: received a response with an unexpected id: 983
+Warning: received a response with an unexpected id: 974
+Warning: received a response with an unexpected id: 978
+Warning: received a response with an unexpected id: 991
+Warning: received a response with an unexpected id: 979
+Warning: received a response with an unexpected id: 980
+Warning: received a response with an unexpected id: 986
+Warning: received a response with an unexpected id: 992
+Warning: received a response with an unexpected id: 983
+Warning: received a response with an unexpected id: 982
+Warning: received a response with an unexpected id: 997
+Warning: received a response with an unexpected id: 978
+Warning: received a response with an unexpected id: 991
+Warning: received a response with an unexpected id: 982
+Warning: received a response with an unexpected id: 997
+Warning: received a response with an unexpected id: 981
+Warning: received a response with an unexpected id: 991
+Warning: received a response with an unexpected id: 990
+Warning: received a response with an unexpected id: 995
+Warning: received a response with an unexpected id: 123
+Warning: received a response with an unexpected id: 121
+Warning: received a response with an unexpected id: 126
+Warning: received a response with an unexpected id: 120
+Warning: received a response with an unexpected id: 132
+Warning: received a response with an unexpected id: 163
+Warning: received a response with an unexpected id: 138
+Warning: received a response with an unexpected id: 187
+Warning: received a response with an unexpected id: 127
+Warning: received a response with an unexpected id: 131
+Warning: received a response with an unexpected id: 143
+Warning: received a response with an unexpected id: 130
+Warning: received a response with an unexpected id: 205
+Warning: received a response with an unexpected id: 118
+Warning: received a response with an unexpected id: 105
+Warning: received a response with an unexpected id: 171
+Warning: received a response with an unexpected id: 168
+Warning: received a response with an unexpected id: 176
+Warning: received a response with an unexpected id: 217
+Warning: received a response with an unexpected id: 117
+Warning: received a response with an unexpected id: 179
+Warning: received a response with an unexpected id: 108
+Warning: received a response with an unexpected id: 169
+Warning: received a response with an unexpected id: 175
+Warning: received a response with an unexpected id: 125
+Warning: received a response with an unexpected id: 116
+Warning: received a response with an unexpected id: 182
+Warning: received a response with an unexpected id: 185
+Warning: received a response with an unexpected id: 220
+Warning: received a response with an unexpected id: 231
+Warning: received a response with an unexpected id: 227
+Warning: received a response with an unexpected id: 240
+Warning: received a response with an unexpected id: 238
+Warning: received a response with an unexpected id: 224
+Warning: received a response with an unexpected id: 235
+Warning: received a response with an unexpected id: 238
+Warning: received a response with an unexpected id: 241
+Warning: received a response with an unexpected id: 250
+Warning: received a response with an unexpected id: 179
+Warning: received a response with an unexpected id: 253
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: received a response with an unexpected id: 107
+Warning: received a response with an unexpected id: 145
+Warning: received a response with an unexpected id: 189
+Warning: received a response with an unexpected id: 153
+Warning: received a response with an unexpected id: 257
+Warning: received a response with an unexpected id: 248
+Warning: received a response with an unexpected id: 192
+Warning: received a response with an unexpected id: 228
+Warning: received a response with an unexpected id: 194
+Warning: received a response with an unexpected id: 149
+Warning: received a response with an unexpected id: 134
+Warning: received a response with an unexpected id: 0
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: received a response with an unexpected id: 391
+Warning: received a response with an unexpected id: 468
+Warning: received a response with an unexpected id: 446
+Warning: received a response with an unexpected id: 463
+Warning: received a response with an unexpected id: 478
+Warning: nghttp2_session_send failed: The user callback function failed
+Error: failed to receive packet: Bad file descriptor

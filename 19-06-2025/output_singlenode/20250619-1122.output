@@ -1,0 +1,39 @@
+resperf: invalid option -- 'T'
+Usage: resperf [-f family] [-M mode] [-s server_addr] [-p port]
+               [-a local_addr] [-x local_port] [-d datafile] [-t timeout]
+               [-b buffer_size] [-e] [-E code:value] [-D]
+               [-y [alg:]name:secret] [-i plot_interval] [-m max_qps]
+               [-P plotfile] [-r ramp_time] [-c constant_traffic_time]
+               [-L max_query_loss] [-C clients] [-q num_outstanding] [-v]
+               [-W] [-R] [-F fall_behind] [-h] [-H] [-O]
+  -f address family of DNS transport, inet or inet6 (default: any)
+  -M set transport mode: udp, tcp, dot or doh (default: udp)
+  -s the server to query (default: 127.0.0.1)
+  -p the port on which to query the server (default: udp/tcp 53, DoT 853 or DoH 443)
+  -a the local address from which to send queries
+  -x the local port from which to send queries (default: 0)
+  -d the input data file (default: stdin)
+  -t the timeout for query completion in seconds (default: 45)
+  -b socket send/receive buffer size in kilobytes
+  -e enable EDNS 0
+  -E send EDNS option
+  -D set the DNSSEC OK bit (implies EDNS)
+  -y the TSIG algorithm, name and secret
+  -i the time interval between plot data points, in seconds (default: 0.5)
+  -m the maximum number of queries per second (default: 100000)
+  -P the name of the plot data file (default: resperf.gnuplot)
+  -r the ramp-up time in seconds (default: 60)
+  -c how long to send constant traffic, in seconds (default: 0)
+  -L the maximum acceptable query loss, in percent (default: 100)
+  -C the number of clients to act as (default: 1)
+  -q the maximum number of queries outstanding (default: 65536)
+  -v verbose: report additional information to stdout
+  -W log warnings and errors to stdout instead of stderr
+  -R reopen datafile on end, allow for infinit use of it
+  -F the maximum number of queries that is allowed to fall behind, zero to disable (default: 1000)
+  -h print this help
+  -H print long options help
+  -O set long options: <name>=<value>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+

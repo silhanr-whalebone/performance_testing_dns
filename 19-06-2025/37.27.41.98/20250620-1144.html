@@ -1,0 +1,91 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1144</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1144.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0 -i 2
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 9471
+Warning: received a response with an unexpected id: 9476
+Warning: received a response with an unexpected id: 9482
+Warning: received a response with an unexpected id: 9485
+Warning: received a response with an unexpected id: 9478
+Warning: received a response with an unexpected id: 9479
+Warning: received a response with an unexpected id: 9626
+Warning: received a response with an unexpected id: 9662
+Warning: received a response with an unexpected id: 9645
+Warning: received a response with an unexpected id: 9834
+Warning: received a response with an unexpected id: 9843
+Warning: received a response with an unexpected id: 9844
+Warning: received a response with an unexpected id: 9844
+Warning: received a response with an unexpected id: 9854
+Warning: received a response with an unexpected id: 9846
+Warning: received a response with an unexpected id: 9823
+Warning: received a response with an unexpected id: 9860
+Warning: received a response with an unexpected id: 9851
+Warning: received a response with an unexpected id: 9869
+Warning: received a response with an unexpected id: 9837
+Warning: received a response with an unexpected id: 9870
+Warning: received a response with an unexpected id: 9855
+Warning: received a response with an unexpected id: 9857
+Warning: received a response with an unexpected id: 9838
+Warning: received a response with an unexpected id: 9843
+Warning: received a response with an unexpected id: 9853
+Warning: received a response with an unexpected id: 9849
+Warning: received a response with an unexpected id: 9848
+Warning: received a response with an unexpected id: 9882
+Warning: received a response with an unexpected id: 9857
+Warning: received a response with an unexpected id: 9877
+Warning: received a response with an unexpected id: 9876
+Warning: received a response with an unexpected id: 9853
+Warning: received a response with an unexpected id: 9828
+Warning: received a response with an unexpected id: 9872
+Warning: received a response with an unexpected id: 9852
+Warning: received a response with an unexpected id: 9836
+Warning: received a response with an unexpected id: 9862
+Warning: received a response with an unexpected id: 9854
+Warning: received a response with an unexpected id: 10005
+Warning: received a response with an unexpected id: 10012
+Warning: received a response with an unexpected id: 9994
+Warning: received a response with an unexpected id: 10009
+Warning: received a response with an unexpected id: 10025
+Warning: received a response with an unexpected id: 9991
+Warning: received a response with an unexpected id: 10004
+Warning: received a response with an unexpected id: 10001
+Warning: received a response with an unexpected id: 9997
+Warning: received a response with an unexpected id: 10023
+Warning: received a response with an unexpected id: 10011
+Warning: received a response with an unexpected id: 10020
+Warning: received a response with an unexpected id: 10006
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         756249
+  Queries completed:    754574
+  Queries lost:         1675
+  Response codes:       NOERROR 500972 (66.39%), SERVFAIL 24946 (3.31%), NXDOMAIN 228656 (30.30%)
+
+  Run time (s):         622.036871
+  Maximum throughput:   2832.500000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  77 (77 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 754626
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1144.rate.png" />
+<img src="20250620-1144.latency.png" />
+</p>
+</body></html>

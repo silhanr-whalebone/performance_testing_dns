@@ -1,0 +1,26 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250619-1415.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 500 -m 2000 -b 1400 -q 500000 -R -r 10 -c 180 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         369999
+  Queries completed:    369996
+  Queries lost:         3
+  Response codes:       NOERROR 250755 (67.77%), SERVFAIL 6706 (1.81%), NXDOMAIN 112535 (30.42%)
+
+  Run time (s):         220.016952
+  Maximum throughput:   2000.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  922 (742 successful, 80.48%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 369996
+

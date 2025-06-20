@@ -1,0 +1,41 @@
+<html><head></head><body>
+<h1>Resperf report 20250620-1144</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-1144.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1250 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0 -i 2
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 9909
+Warning: received a response with an unexpected id: 9901
+Warning: received a response with an unexpected id: 9919
+Warning: nghttp2_session_send failed: The user callback function failed
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         756249
+  Queries completed:    755550
+  Queries lost:         699
+  Response codes:       NOERROR 502328 (66.49%), SERVFAIL 24656 (3.26%), NXDOMAIN 228566 (30.25%)
+
+  Run time (s):         622.119939
+  Maximum throughput:   1838.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  66 (66 successful, 100.00%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 755553
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250620-1144.rate.png" />
+<img src="20250620-1144.latency.png" />
+</p>
+</body></html>

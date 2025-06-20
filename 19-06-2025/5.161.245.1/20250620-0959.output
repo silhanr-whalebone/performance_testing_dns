@@ -1,0 +1,36 @@
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250620-0959.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 50 -m 1300 -b 1400 -q 1000000 -R -r 10 -c 600 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+Warning: received a response with an unexpected id: 2014
+Warning: received a response with an unexpected id: 3477
+Warning: received a response with an unexpected id: 4087
+Warning: received a response with an unexpected id: 4527
+Warning: received a response with an unexpected id: 4516
+Warning: received a response with an unexpected id: 4922
+Warning: received a response with an unexpected id: 4923
+Warning: received a response with an unexpected id: 4931
+Warning: received a response with an unexpected id: 5260
+Warning: received a response with an unexpected id: 5784
+Warning: received a response with an unexpected id: 6255
+Warning: received a response with an unexpected id: 6223
+Warning: received a response with an unexpected id: 6275
+Warning: received a response with an unexpected id: 6231
+Warning: received a response with an unexpected id: 6226
+Warning: received a response with an unexpected id: 6241
+Warning: received a response with an unexpected id: 6279
+Warning: received a response with an unexpected id: 6400
+Warning: received a response with an unexpected id: 7978
+Warning: received a response with an unexpected id: 8338
+Warning: received a response with an unexpected id: 8359
+Warning: received a response with an unexpected id: 8973
+Warning: received a response with an unexpected id: 8958
+Warning: received a response with an unexpected id: 8977
+Warning: received a response with an unexpected id: 10123
+Warning: received a response with an unexpected id: 10135
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Warning: nghttp2_session_send failed: The user callback function failed
+Error: failed to receive packet: Bad file descriptor

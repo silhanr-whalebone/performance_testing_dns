@@ -1,0 +1,37 @@
+<html><head></head><body>
+<h1>Resperf report 20250619-1341</h1>
+<h2>Resperf output</h2>
+<pre>
+DNS Resolution Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: resperf -P 20250619-1341.gnuplot -M doh -s 79.127.218.224 -O doh-uri=https://protective.joindns4.eu/dns-query -d domains_shuffled.list -C 500 -m 1000 -b 1400 -q 500000 -R -r 10 -c 180 -t 30 -F 0
+[Status] Sending
+[Status] Ramp-up done, sending constant traffic
+[Status] Waiting for more responses
+[Status] Testing complete
+
+Statistics:
+
+  Queries sent:         184999
+  Queries completed:    184993
+  Queries lost:         6
+  Response codes:       NOERROR 125329 (67.75%), SERVFAIL 3379 (1.83%), NXDOMAIN 56285 (30.43%)
+
+  Run time (s):         219.940185
+  Maximum throughput:   1000.000000 qps
+  Lost at that point:   0.00%
+
+  Connection attempts:  936 (550 successful, 58.76%)
+
+DNS-over-HTTPS statistics:
+
+  HTTP/2 return codes:  200: 184993
+
+</pre>
+<h2>Plots</h2>
+<p>
+<img src="20250619-1341.rate.png" />
+<img src="20250619-1341.latency.png" />
+</p>
+</body></html>
